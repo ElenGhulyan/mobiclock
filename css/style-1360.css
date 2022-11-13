@@ -207,9 +207,9 @@ header {
     height: 550px;
     margin: 80px auto;
     position: relative;
-    background-image: url(images/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-image: url(images/logo.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
 }
 .box-item-1{
     position: absolute;
@@ -623,6 +623,14 @@ img.img55 {
 
 .customer-reviews-section-2 {
     margin: 140px 0;
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 3s all ease;
+}
+.customer-reviews-section-2.active {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .customer-reviews-tabs-item a {
@@ -810,6 +818,14 @@ img.img55 {
 
 .multiple-unique-features-section {
     margin: 160px 0;
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 3s all ease;
+}
+.multiple-unique-features-section.active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 
@@ -1220,7 +1236,22 @@ p {}
     text-align: center;
 }
 
-
+.box-1-hover:before{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.box-2-hover:before{
+    transform: rotate(230deg);
+    transition: 3s;
+}
+.box-3-hover:before{
+    transform: rotate(45deg);
+    transition: 3s;
+}
+.box-4-hover:before{
+    transform: rotate(140deg);
+    transition: 3s;
+}
 
 .practical-features-btn a {
     padding: 18px 14px;
@@ -1240,6 +1271,16 @@ p {}
 }
 
 .why-mobiclocks-section {position: relative;top: 90px;}
+
+.clock-section:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 @media (max-width: 1400px) {
     .container {
