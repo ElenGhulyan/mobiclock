@@ -35,6 +35,10 @@ item_4.addEventListener('mouseenter', (event) => {
 })
 
 
+
+
+
+
 $(".faq-section-box").on("click", function () {
     $(this).find('.faq-body').slideToggle(500);
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')

@@ -1,71 +1,120 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.5s;
 }
-body{
+
+body {
     font-family: "Hind Madurai";
+    background-color: #FAFDFF;
+}
+
+.content {
+    max-width: 2048px;
+    margin: 0 auto;
+}
+
+a {
+    cursor: pointer;
 }
 
 
 .d-flex {
     display: flex;
 }
+
 .w-260 {
     width: 260px;
 }
+
 .w-210 {
     /* width: 210px; */
 }
+
 .w-220 {
     /* width: 220px; */
 }
+
 .w-218 {
     /* width: 220px; */
 }
+
 .w-185 {
     /* width: 185px; */
 }
+
 .w-153 {
     /* width: 153px; */
 }
+
 .w-133 {
     /* width: 133px; */
 }
 
-::placeholder{
+::placeholder {
     color: #909ba5;
     font-size: 23px;
 
 }
+.banner-img-soc a img:hover {
+    box-shadow: 0px 0px 15px 1px #03232d87;
+}
+
+.see-mobiclocks-section-btn:hover {
+    background-color: #1e792b9c;
+    box-shadow: 4px 2px 15px 2px #cccccc;
+}
+
+.forms-message-btn button:hover {
+    background-color: #fff;
+    color: #47b7e8;
+    box-shadow: 7px 9px 10px 3px #63acd3;
+}
+.mobiclocks-in-action-btn a:hover {
+    background-color: #fff;
+    color: #9ede9c;
+    box-shadow: 8px 6px 13px 1px #88d086;
+}
+.start-saving-with-mobiclock-btn a:hover {
+    background-color: #fff;
+    color: #47b7e8;
+    box-shadow: 12px 7px 10px 2px #63acd3c7;
+}
 header {
     background-image: url("images/header-bg.png");
-    background-size: 69%;
+    background-size: 1380px;
     background-repeat: no-repeat;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 0;
 }
-.container{
+
+.container {
     width: 1360px;
     margin: 0 auto;
 }
-.menu ul.header-menu{
+
+.menu ul.header-menu {
     display: flex;
     gap: 58px;
 }
-.menu ul li{
+
+.menu ul li {
     list-style: none;
     position: relative;
 }
-.nav-link{
+
+.nav-link {
     font-size: 17px;
     color: #fff;
     line-height: 23px;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
 }
 
@@ -87,7 +136,8 @@ header {
     background-color: #eee;
     color: black;
 }
-.contact{
+
+.contact {
     color: #04396C;
 }
 
@@ -98,20 +148,21 @@ header {
     border-radius: 10px;
 }
 
-.banner{
+.banner-section {
     display: flex;
     justify-content: space-between;
     margin-top: 124px;
 }
 
-.banner-info h1{
+.banner-info h1 {
     width: 750px;
     font-size: 68px;
     color: white;
     line-height: 68px;
     font-weight: 700;
 }
-.banner-info h3{
+
+.banner-info h3 {
     margin-top: 18px;
     width: 540px;
     font-size: 32px;
@@ -121,26 +172,30 @@ header {
 }
 
 
-.banner-img img{
+.banner-img img {
     height: 414px;
     border-radius: 12px;
     position: relative;
     right: -72px;
 }
 
-.banner-img-soc{
+.banner-img-soc {
     display: flex;
     gap: 29px;
     margin-top: 82px;
-    margin-bottom: 320px;
+    margin-bottom: 60px;
     justify-content: center;
 }
 
-.banner-img-soc img{
+.banner-img-soc img {
     width: 195px;
     height: 67px;
 }
-.banner-info a{
+
+a {
+}
+
+.banner-info a {
     margin-top: 28px;
     padding: 18px 0;
     background-color: #ffffff;
@@ -150,31 +205,47 @@ header {
     display: inline-block;
     text-align: center;
 }
-.banner-info-btn{
+
+.banner-info-btn {
     color: #47B7E8;
     text-decoration: none;
     font-weight: 700;
 
 }
 
-.shadow-img{
+.banner-info {
+    padding-top: 40px;
+}
+
+a.banner-info-btn:hover {
+    color: #ffffff;
+    box-shadow: 1px 2px 7px 1px #182e44a3;
+    background-color: #63acd378;
+}
+
+
+.question-img {
+    text-align: end;
+    padding-bottom: 130px;
+}
+
+.shadow-img {
     box-shadow: 5px 10px 34px 2px #4b637b85;
 }
 
 
-
-
-.construction-industry-section{
+.construction-industry-section {
     margin: 0 auto;
 }
 
-.construction-industry-title h2{
+.construction-industry-title h2 {
     font-size: 68px;
     text-align: center;
     font-weight: 500;
     color: #04396C;
 }
-.construction-industry-text{
+
+.construction-industry-text {
 
     font-size: 23px;
     font-weight: 300;
@@ -186,9 +257,7 @@ header {
 }
 
 
-
-
-.section-left-title h3{
+.section-left-title h3 {
     font-size: 60px;
     color: #04396C;
     font-weight: 500;
@@ -196,39 +265,36 @@ header {
 }
 
 
-
-
-
-
-.clock-section{
+.clock-section {
     border: 1px dashed #04396c7a;
     border-radius: 50%;
     width: 550px;
     height: 550px;
     margin: 80px auto;
     position: relative;
-    /* background-image: url(images/logo.png); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
 }
-.box-item-1{
+
+.box-item-1 {
     position: absolute;
     right: 195px;
     top: -54px;
 }
-.box-item-1 p{
-    width: 175px ;
+
+.box-item-1 p {
+    width: 175px;
 }
-.box-item-1 i{
+
+.box-item-1 i {
     position: absolute;
     transform: rotate(-97deg);
     top: 46px;
     font-size: 20px;
     color: #ccc;
 }
-.clock-box img{
+
+.clock-box img {
     width: 124px;
-    height:124px ;
+    height: 124px;
 }
 
 .clock-box {
@@ -237,14 +303,13 @@ header {
 }
 
 
-
-
-.forms{
+.forms {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.forms-box input{
+
+.forms-box input {
     display: inline-block;
     width: 100%;
     padding: 15px;
@@ -254,7 +319,8 @@ header {
     color: #adada7;
     box-sizing: border-box;
 }
-.forms-message-box textarea{
+
+.forms-message-box textarea {
     margin-top: 44px;
     margin-bottom: 28px;
     display: inline-block;
@@ -269,21 +335,29 @@ header {
 }
 
 
-.forms-message-btn{
+.forms-message-btn {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 128px;
 }
 
-.forms-message-btn button {background-color: #47B7E8;width: 160px;padding: 14px 14px;font-size: 18px;border-radius: 10px;border: none;color: #fff;}
+.forms-message-btn button {
+    background-color: #47B7E8;
+    width: 160px;
+    padding: 14px 14px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
 
 
-
-footer{
+footer {
     background-color: #47B7E8;
     padding-top: 156px;
 }
-.footer-info-text a{
+
+.footer-info-text a {
     display: block;
     color: white;
     font-weight: 400;
@@ -292,62 +366,68 @@ footer{
     font-size: 23px;
     line-height: 28px;
 }
-.footer-info-text a i{
+
+.footer-info-text a i {
     padding-right: 9px;
 }
 
 
-
-.footer-menu-section{
+.footer-menu-section {
     display: flex;
     gap: 70px;
     padding-bottom: 152px;
 }
 
-.box-item-title p{
+.box-item-title p {
     margin-bottom: 30px;
     color: white;
     font-size: 17px;
     font-weight: 700;
 }
-.box-item-text p a{
+
+.box-item-text p a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-.copy-right{
+
+.copy-right {
     border-top: 1px solid #ffffff;
     padding: 13px 0;
 }
 
-.copy-right .container{
+.copy-right .container {
     gap: 335px;
     align-items: center;
     justify-content: space-between;
     color: white;
     font-size: 18px;
 }
-.copy-right-social a{
+
+.copy-right-social a {
     color: white;
     font-size: 27px;
     padding-left: 8px;
 }
-.clock-box{
+
+.clock-box {
     font-size: 17px;
     width: 130px;
 }
+
 .box-item-2 {
     position: absolute;
     top: 200px;
     left: -50px;
 }
-.box-item-2 p{
+
+.box-item-2 p {
     width: 137px;
     text-align: center;
 
 }
 
-.box-item-2 i{
+.box-item-2 i {
     bottom: -10px;
     position: absolute;
     transform: rotate(-195deg);
@@ -361,12 +441,14 @@ footer{
     right: -65px;
     top: 200px;
 }
-.box-item-3 p{
+
+.box-item-3 p {
     width: 134px;
     text-align: center;
 
 }
-.box-item-3 i{
+
+.box-item-3 i {
     position: absolute;
     transform: rotate(-15deg);
     font-size: 20px;
@@ -376,12 +458,17 @@ footer{
 }
 
 
+.box-item-4 {
+    right: 195px;
+    position: absolute;
+    bottom: -104px;
+}
 
-.box-item-4 {right: 195px;position: absolute;bottom: -104px;}
-.box-item-4 p{
+.box-item-4 p {
     text-align: center;
 }
-.box-item-4 i{
+
+.box-item-4 i {
     position: absolute;
     transform: rotate(-280deg);
     top: 52px;
@@ -390,9 +477,15 @@ footer{
     color: #366da9a3;
 }
 
-.box-item-5 {right: 144px;top: 277px;line-height: 65px;width: 240px;position: absolute;}
+.box-item-5 {
+    right: 144px;
+    top: 277px;
+    line-height: 65px;
+    width: 240px;
+    position: absolute;
+}
 
-.box-item-5 p{
+.box-item-5 p {
     font-size: 68px;
     width: 215px;
     padding: 0 0px;
@@ -401,7 +494,8 @@ footer{
     line-height: 30px;
     font-weight: 500;
 }
-.box-item-5 span{
+
+.box-item-5 span {
     font-size: 30px;
     font-weight: 500;
     color: #04396C;
@@ -445,7 +539,6 @@ footer{
 }
 
 
-
 .section-center-title {
     font-weight: 500;
     font-size: 55px;
@@ -481,6 +574,7 @@ footer{
     border-radius: 7px;
     color: #fff;
 }
+
 img.img55 {
     width: 75px;
     height: 60px;
@@ -488,20 +582,6 @@ img.img55 {
     left: 187px;
     bottom: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .many-to-save-tabs {
@@ -546,12 +626,20 @@ img.img55 {
     display: inline-block;
 }
 
-.many-to-save-body-img {flex: 1.2;border-radius: 20px;overflow: hidden;}
+.many-to-save-body-img {
+    flex: 1.2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .many-to-save-body {
     display: none;
 }
+
 .many-to-save-body.active {
     display: flex;
+
+
 }
 
 
@@ -581,7 +669,6 @@ img.img55 {
 }
 
 
-
 .many-to-save-title p {
     font-size: 68px;
     font-weight: 500;
@@ -593,21 +680,10 @@ img.img55 {
     margin: 160px 0 0;
     background: url("images/many-to-save-body-img.png");
     background-repeat: no-repeat;
-    background-position: 125% 87px;
+    background-position: 84% 127px;
     padding: 0 0 400px;
-    background-size: 85%;
+    background-size: 70%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .customer-reviews-tabs {
@@ -628,6 +704,7 @@ img.img55 {
     opacity: 0;
     transition: 3s all ease;
 }
+
 .customer-reviews-section-2.active {
     transform: translateY(0);
     opacity: 1;
@@ -657,10 +734,17 @@ img.img55 {
     color: #04396C;
 }
 
-.customer-reviews-body-img {flex: 1;border: 6px solid #47B7EB;border-radius: 20px;overflow: hidden;}
+.customer-reviews-body-img {
+    flex: 1;
+    border: 6px solid #47B7EB;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .customer-reviews-body {
     display: none;
 }
+
 .customer-reviews-body.active {
     display: flex;
     gap: 50px;
@@ -689,30 +773,6 @@ img.img55 {
     left: 0;
     border-radius: 6px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .multiple-unique-features-tabs {
@@ -745,10 +805,12 @@ img.img55 {
 
 .geo_fence {
     flex: 1;
+    background-size: 50%;
     background-image: url("images/multiple-Unique-Features-bg.png");
-    background-position: top right;
+    background-position: 66% 33%;
     background-repeat: no-repeat;
 }
+
 .face-recognition-description {
     font-size: 23px;
     color: #04396C;
@@ -771,10 +833,16 @@ img.img55 {
     color: #04396C;
 }
 
-.multiple-unique-features-body-img {flex: 1.2;border-radius: 20px;overflow: hidden;}
+.multiple-unique-features-body-img {
+    flex: 1.2;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 .multiple-unique-features-body {
     display: none;
 }
+
 .multiple-unique-features-body.active {
     display: flex;
     padding-bottom: 222px;
@@ -807,7 +875,8 @@ img.img55 {
     width: 100%;
 }
 
-.container {}
+.container {
+}
 
 .multiple-unique-features-title p {
     font-size: 68px;
@@ -823,11 +892,11 @@ img.img55 {
     opacity: 0;
     transition: 3s all ease;
 }
+
 .multiple-unique-features-section.active {
     transform: translateX(0);
     opacity: 1;
 }
-
 
 
 .banner-play-img {
@@ -856,7 +925,10 @@ img.img55 {
     margin-bottom: 30px;
 }
 
-.customer-reviews-item {border-radius: 35px;padding: 30px 30px;}
+.customer-reviews-item {
+    border-radius: 35px;
+    padding: 30px 30px;
+}
 
 .customer-reviews-section-1-tabs {
 }
@@ -922,7 +994,6 @@ i.fa.fa-toggle-on {
 }
 
 
-
 .mobiclocks-in-action-body img {
     position: absolute;
     top: -18px;
@@ -974,9 +1045,11 @@ i.fa.fa-toggle-on {
 .our-story-body-title {
     margin-bottom: 20px;
 }
+
 .our-story-body-info {
     width: 660px;
 }
+
 .our-story-body-info p {
     color: #04369C;
     margin: 20px 0;
@@ -986,8 +1059,6 @@ i.fa.fa-toggle-on {
 }
 
 
-
-
 img.bg {
     position: absolute;
     right: -210px;
@@ -995,12 +1066,14 @@ img.bg {
     z-index: -1;
     width: 510px;
 }
+
 button.owl-dot {
     padding: 2px 20px !important;
     border-radius: 50px;
     background-color: #ccc;
     margin: 0 10px;
 }
+
 .owl-carousel button.owl-dot {
     padding: 2px 20px !important;
     border-radius: 50px;
@@ -1015,20 +1088,15 @@ button.owl-dot.active {
     text-align: center;
     margin-top: 30px;
 }
+
 .owl-carousel .owl-stage-outer {
     padding: 8px 5px;
 }
+
 .owl-item {
     box-shadow: 0 0 10px 0 #a9a2a278;
     border-radius: 35px;
 }
-
-
-
-
-
-
-
 
 
 .see-mobiclocks-section {
@@ -1039,13 +1107,18 @@ button.owl-dot.active {
     background-position: top;
     padding: 144px 0;
 }
-.see-mobiclocks-section-img{
+
+.see-mobiclocks-section-img {
     position: relative;
 
 
-
 }
-.see-mobiclocks-section-info{position: relative;top: 50px;}
+
+.see-mobiclocks-section-info {
+    position: relative;
+    top: 50px;
+}
+
 .see-mobiclocks-section-info h3 {
     font-size: 68px;
     text-align: center;
@@ -1055,7 +1128,8 @@ button.owl-dot.active {
     color: #04396C;
 }
 
-p {}
+p {
+}
 
 .see-mobiclocks-section-info p {
     font-size: 23px;
@@ -1067,7 +1141,15 @@ p {}
     background-color: #60D58D;
 }
 
-.see-mobiclocks-section-btn {text-align: center;background-color: #60D58D;width: 216px;border-radius: 12px;margin: 0 auto;padding: 20px;margin-top: 40px;}
+.see-mobiclocks-section-btn {
+    text-align: center;
+    background-color: #60D58D;
+    width: 216px;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+}
 
 .see-mobiclocks-section-btn a {
     text-decoration: none;
@@ -1077,17 +1159,17 @@ p {}
 }
 
 
-.start-saving-with-mobiclock-info h3{
+.start-saving-with-mobiclock-info h3 {
     width: 506px;
-    font-size:68px;
+    font-size: 68px;
     font-weight: 500;
     line-height: 67px;
     color: #04396C;
     margin-bottom: 31px;
 }
 
-.start-saving-with-mobiclock-info p{
-    font-size:32px;
+.start-saving-with-mobiclock-info p {
+    font-size: 32px;
     font-weight: 300;
     line-height: 35px;
     color: #04396C;
@@ -1096,8 +1178,11 @@ p {}
     width: 570px;
 }
 
-.start-saving-with-mobiclock-btn{display: inline-block;/* margin-top: 23px; */}
-.start-saving-with-mobiclock-btn a{
+.start-saving-with-mobiclock-btn {
+    display: inline-block; /* margin-top: 23px; */
+}
+
+.start-saving-with-mobiclock-btn a {
     padding: 17px;
     text-decoration: none;
     color: #fff;
@@ -1107,8 +1192,6 @@ p {}
     border-radius: 10px;
     display: inline-block;
 }
-
-
 
 
 .start-saving-with-mobiclock-section {
@@ -1121,6 +1204,7 @@ p {}
     background-repeat: no-repeat;
     margin-top: 60px;
 }
+
 .start-saving-with-mobiclock-section-left {
     padding-top: 60px;
 }
@@ -1130,7 +1214,7 @@ p {}
 /*    background-image: url("images/header-bg-2.png");*/
 /*    background-size: 70%;background-repeat: no-repeat;background-position: right;}*/
 
-.start-saving-with-mobiclock-section-right img{
+.start-saving-with-mobiclock-section-right img {
     width: 100%;
 }
 
@@ -1144,6 +1228,7 @@ p {}
     font-weight: 400;
     font-size: 23px;
 }
+
 .footer-menu-logo {
     margin-bottom: 16px;
 }
@@ -1177,12 +1262,14 @@ p {}
     margin-top: 24px;
     color: #04396C;
 }
-.flag-alert-system{
+
+.flag-alert-system {
     background-image: url("images/flag-alert-system-bg.png");
     background-repeat: no-repeat;
     background-position: 77% 140px;
     background-size: 30%;
 }
+
 .multiple-unique-features-body-info {
     margin-top: 80px;
 }
@@ -1220,6 +1307,13 @@ p {}
     display: inline-block;
     padding: 350px 0 150px;
 }
+
+.practical-features-btn:hover {
+    background-color: #eef5f8;
+    box-shadow: 0px 14px 12px 1px #00000063;
+    transition: 7ms;
+}
+
 .why-mobiclocks-title h3 {
     font-size: 68px;
     color: #04396C;
@@ -1236,24 +1330,35 @@ p {}
     text-align: center;
 }
 
-.box-1-hover:before{
+.box-1-hover:before {
     transform: rotate(360deg);
     transition: 3s;
 }
-.box-2-hover:before{
+
+.box-2-hover:before {
     transform: rotate(230deg);
     transition: 3s;
 }
-.box-3-hover:before{
+
+.box-3-hover:before {
     transform: rotate(45deg);
     transition: 3s;
 }
-.box-4-hover:before{
+
+.box-4-hover:before {
     transform: rotate(140deg);
     transition: 3s;
 }
 
 .practical-features-btn a {
+    font-size: 18px;
+    color: #47B7E8;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.practical-features-btn {
     padding: 18px 14px;
     background-color: #fff;
     font-size: 18px;
@@ -1266,11 +1371,10 @@ p {}
     text-align: center;
 }
 
-.practical-features-btn {
-    display: inline-block;
+.why-mobiclocks-section {
+    position: relative;
+    top: 90px;
 }
-
-.why-mobiclocks-section {position: relative;top: 90px;}
 
 .clock-section:before {
     content: '';
@@ -1282,26 +1386,180 @@ p {}
     background-position: center;
 }
 
+
+
+
+
+@media (max-width: 1800px) {
+    .container {
+        width: 1200px;
+    }
+    .header-menu  li a{
+        color: #04369C;
+        font-size: 15px;
+    }
+    .menu ul.header-menu {
+        display: flex;
+        gap: 45px;
+    }
+    a.nav-link.btn-trial {
+        background-color: #ffffffbf;
+        box-shadow: 9px 8px 8px 2px #366da9;
+    }
+
+    .banner-img img {
+        height: 414px;
+        border-radius: 12px;
+        position: relative;
+        right: 0px;
+    }
+    .banner-play-img img {
+        position: absolute;
+        top: 130px;
+        left: 245px;
+        z-index: 99;
+    }
+    .banner-img-soc a img {
+        width: 150px;
+        height: 65px;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        content: "";
+        background: #60D58D;
+        height: 8px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        z-index: 99;
+        top: 76px;
+        left: 0;
+        border-radius: 6px;
+    }
+    .face_recognition p {
+        font-size: 19px;
+        margin-top: 24px;
+        color: #04396C;
+    }
+    .face_recognition {
+        flex: 1;
+        background-image: url(images/face_recognition_bg.png);
+        background-position: right 35px;
+        background-repeat: no-repeat;
+        background-size: 45%;
+    }
+    .many-to-save-section {
+        margin: 160px 0 0;
+        background: url(images/many-to-save-body-img.png);
+        background-repeat: no-repeat;
+        background-position: 84% 127px;
+        padding: 0 0 238px;
+        background-size: 70%;
+    }
+    .multiple-unique-features-tabs-item a {
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+        color: #04396C;
+        display: inline-block;
+    }
+    .multiple-unique-features-title p {
+        font-size: 68px;
+        font-weight: 500;
+        color: #04396C;
+        margin-bottom: 21px;
+    }
+    .customer-reviews-tabs {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        padding: 10px 0;
+        border-bottom: 8px solid rgba(0, 0, 0, 0.07);
+        text-align: center;
+        margin-bottom: 80px;
+        padding-bottom: 40px;
+    }
+    .customer-reviews-tabs-item a {
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+        color: #04396C;
+        display: inline-block;
+    }
+    .customer-reviews-tabs-item.active:after {
+        content: "";
+        background: #47B7E8;
+        height: 8px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        z-index: 99;
+        top: 96px;
+        left: 0;
+        border-radius: 6px;
+    }
+    .footer-menu-section {
+        display: flex;
+
+        gap: 60px;
+        padding-bottom: 152px;
+    }
+    .footer-info-text a {
+        display: block;
+        color: white;
+        font-weight: 400;
+        padding-top: 8px;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 1570px) {
+    .container {
+        width: 1140px;
+    }
+   .banner-info h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+}
+
+
 @media (max-width: 1400px) {
     .container {
         width: 1140px;
     }
+
 }
+
 @media (max-width: 1200px) {
     .container {
         width: 960px;
     }
 }
+
 @media (max-width: 992px) {
     .container {
         width: 720px;
     }
 }
+
 @media (max-width: 768px) {
     .container {
         width: 540px;
     }
 }
+
 @media (max-width: 576px) {
     .container {
         width: 100%;
@@ -1309,8 +1567,3 @@ p {}
 }
 
 
-
-
-.banner-info {
-    padding-top: 39px;
-}
