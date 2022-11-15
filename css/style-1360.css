@@ -100,6 +100,7 @@ header {
     background-image: url("images/header-bg.png");
     background-size: 1333px;
     background-repeat: no-repeat;
+    height: 1165px;
 }
 
 .header {
@@ -241,8 +242,10 @@ a.banner-info-btn:hover {
 
 
 .question-img {
-    text-align: end;
-    padding-bottom: 130px;
+    display: inline-block;
+    position: fixed;
+    bottom: 81px;
+    right: 57px;
 }
 
 .shadow-img {
@@ -1549,8 +1552,7 @@ p {
     }
     .banner-img img {
         height: 410px;
-        width: 580px;
-
+        width: 470px;
     }
     .banner-play-img img {
         position: absolute;
@@ -1649,13 +1651,17 @@ p {
         background-size: 1340px;
         background-repeat: no-repeat;
     }
+    .menu ul.header-menu {
+        display: flex;
+        gap: 35px;
+    }
     .banner-play-img img {
         position: absolute;
         top: 130px;
         left: -35px;
         z-index: 99;
     }
-    
+
 }
 
 
