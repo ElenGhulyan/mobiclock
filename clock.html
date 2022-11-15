@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .clock {
+            margin: 60px auto;
+            position: relative;
+            width: 600px;
+            height: 600px;
+            border-radius: 52%;
+            border: 1px dashed rgba(4, 57, 108, 0.4);
+        }
+        .clock div{
+            position: absolute;
+            width: 25%;
+            text-align: center;
+            line-height: 1;
+            background-color:  #FAFDFF;;
+        }
+        .clock div img{
+            width: 100%;
+        }
+        .clock div span{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px
+
+
+
+        }
+
+        .clock div i{
+            position: absolute;
+            color:rgba(4, 57, 108, 0.4);
+        }
+        .clock div:nth-child(1){
+            top: -9%;
+            right: 39%;
+        }
+        .clock div:nth-child(2){
+            left: 86%;
+            top: 37%;
+        }
+
+        .clock div:nth-child(3){
+            right: 39%;
+            top: 88%;
+        }
+        .clock div:nth-child(4){
+            top: 37%;
+            left: -11%;
+        }
+        .clock div:nth-child(5){
+            width: 40%;
+            top: 30%;
+            left: 30%;
+            line-height: 0.5;
+        }
+        .clock div:nth-child(5) h2{
+            position: absolute;
+            font-size: 65px;
+            font-weight: 500;
+            color: #04396C;
+            bottom: 30px;
+            left: 15px;
+        }
+        .clock div:nth-child(5) h2 span{
+            font-weight: 700;
+            font-size: 29px;
+        }
+        .clock div:nth-child(1) i{
+            transform: rotate(-100deg);
+            left: -6px;
+            top: 57px;
+        }
+        .clock div:nth-child(2) i{
+            transform: rotate(-18deg);
+            top: -9px;
+            right: 67px;
+        }
+        .clock div:nth-child(3) i{
+            transform: rotate(66deg);
+            top: 57px;
+            right: -9px;
+        }
+        .clock div:nth-child(4) i{
+            transform: rotate(165deg);
+            top: 174px;
+            right: 58px;
+        }
+
+        .one:hover ~ .clock-img img {
+            transform: rotate(40deg) translateX(20px) translateY(-15px );
+        }
+        .two:hover ~ .clock-img img {
+            transform: rotate(135deg) translateX(23px) translateY(-65px );
+        }
+
+        .three:hover ~ .clock-img img {
+            transform: rotate(220deg) translateX(-25px) translateY(-62px );
+        }
+
+        .four:hover ~ .clock-img img {
+            transform: rotate(310deg) translateX(-25px) translateY(-15px );
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="clock-inner">
+    <div class="clock">
+
+        <div class="one">
+            <i class="fa-solid fa-angle-down"></i>
+            <a href=""><img src="./image/people-icon.png"></a>
+            <span>Control Labor Costs</span>
+
+        </div>
+        <div class="two">
+            <i class="fa-solid fa-angle-down"></i>
+            <a href=""><img src="./image/image%20(1).png"></a>
+            <span>No More Buddy Punches</span>
+
+        </div>
+        <div class="three">
+            <i class="fa-solid fa-angle-down"></i>
+            <a href=""><img src="./image/watch-icon.png"></a>
+            <span>Easy Time and Attendance</span>
+
+        </div>
+        <div class="four">
+            <i class="fa-solid fa-angle-down"></i>
+            <a href=""><img src="./image/hand-icon.png"></a>
+            <span>Streamline Payrol</span>
+        </div>
+
+        <div class="clock-img">
+            <img src="./image/clock-hands-icon.png">
+            <h2>Save <br> <span>Time and Money</span></h2>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -5,45 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7e8cd6-1bab-4a12-ae0f-bf918c3c89e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/bg-oval.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/face_recognition_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/flag-alert-system-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/header-bg-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/header-bg-noth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/header-bg-practical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/logo 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/many-to-save-body-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/multiple-Unique-Features-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/see_action_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style-1360.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Group 430.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Group 861.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/app-store (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/baner-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bg-oval.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/buddy punchers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/costumer-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/face-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/face-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/google-play (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/header-bg-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/labor costs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/many-to-save-body-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mob-action-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mobi home page cover copy 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/multiple Unique Features-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/multiple-Unique-Features-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/play-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/story-in-htree-sentences-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/streamline payroll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/time and attendance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-1360.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-1360.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -58,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -98,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667410546655</updated>
       <workItem from="1667410548006" duration="139329000" />
-      <workItem from="1668405869559" duration="22705000" />
+      <workItem from="1668405869559" duration="23574000" />
+      <workItem from="1668492177553" duration="21656000" />
     </task>
     <servers />
   </component>

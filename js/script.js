@@ -44,6 +44,10 @@ $(".faq-section-box").on("click", function () {
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
 });
 
+
+
+
+
 $(".many-to-save-tabs-item").on("click", function (){
     $(".many-to-save-tabs-item").removeClass('active');
     $(this).addClass('active');

@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-    max-width: 2048px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -18,7 +18,20 @@ a {
     cursor: pointer;
 }
 
+.fs-60{
+    font-size: 68px !important;
+}
+.fs-42{
+    font-size: 42px !important;
+    font-weight: 400;
+}
+.fs-32{
+    font-size: 32px !important;
 
+}
+.fs-23{
+    font-size: 23px !important;
+}
 .d-flex {
     display: flex;
 }
@@ -56,6 +69,9 @@ a {
     font-size: 23px;
 
 }
+.banner {
+    width: revert;
+}
 .banner-img-soc a img:hover {
     box-shadow: 0px 0px 15px 1px #03232d87;
 }
@@ -82,7 +98,7 @@ a {
 }
 header {
     background-image: url("images/header-bg.png");
-    background-size: 1380px;
+    background-size: 1333px;
     background-repeat: no-repeat;
 }
 
@@ -413,11 +429,13 @@ footer {
 .clock-box {
     font-size: 17px;
     width: 130px;
+    background-color: #fafdff;
 }
 
 .box-item-2 {
     position: absolute;
     top: 200px;
+    background-color: #fafdff;
     left: -50px;
 }
 
@@ -525,7 +543,6 @@ footer {
 }
 
 .faq-body p {
-    font-size: 17px;
     color: #04396C;
 }
 
@@ -548,7 +565,6 @@ footer {
 .mobiclocks-in-action-body {
     text-align: center;
     font-weight: 300;
-    font-size: 23px;
     padding: 20px 74px;
     line-height: 30px;
     position: relative;
@@ -599,7 +615,6 @@ img.img55 {
 }
 
 .many-to-save-tabs-item a {
-    font-size: 23px;
     font-weight: 300;
     width: 100%;
     color: #04396C;
@@ -608,7 +623,6 @@ img.img55 {
 }
 
 .many-to-save-body-info h3 {
-    font-size: 42px;
     color: #04396C;
     line-height: 46px;
     font-weight: 300;
@@ -670,7 +684,6 @@ img.img55 {
 
 
 .many-to-save-title p {
-    font-size: 68px;
     font-weight: 500;
     margin-bottom: 58px;
     color: #04396C;
@@ -719,7 +732,6 @@ img.img55 {
 }
 
 .customer-reviews-body-info h3 {
-    font-size: 40px;
     color: #04396C;
     line-height: 46px;
 }
@@ -828,7 +840,6 @@ img.img55 {
 }
 
 .face_recognition p {
-    font-size: 23px;
     margin-top: 24px;
     color: #04396C;
 }
@@ -1038,7 +1049,6 @@ i.fa.fa-toggle-on {
 
 .our-story-body-title p {
     color: #04396C;
-    font-size: 60px;
     line-height: 67px;
 }
 
@@ -1053,7 +1063,6 @@ i.fa.fa-toggle-on {
 .our-story-body-info p {
     color: #04369C;
     margin: 20px 0;
-    font-size: 23px;
     font-weight: 300;
     line-height: 25px;
 }
@@ -1120,7 +1129,6 @@ button.owl-dot.active {
 }
 
 .see-mobiclocks-section-info h3 {
-    font-size: 68px;
     text-align: center;
     margin-bottom: 14px;
     line-height: 75px;
@@ -1132,7 +1140,6 @@ p {
 }
 
 .see-mobiclocks-section-info p {
-    font-size: 23px;
     color: #04396C;
     text-align: center;
 }
@@ -1161,7 +1168,6 @@ p {
 
 .start-saving-with-mobiclock-info h3 {
     width: 506px;
-    font-size: 68px;
     font-weight: 500;
     line-height: 67px;
     color: #04396C;
@@ -1169,7 +1175,6 @@ p {
 }
 
 .start-saving-with-mobiclock-info p {
-    font-size: 32px;
     font-weight: 300;
     line-height: 35px;
     color: #04396C;
@@ -1295,7 +1300,6 @@ p {
 }
 
 .practical-features-description {
-    font-size: 32px;
     color: #fff;
     line-height: 35.2px;
     margin-bottom: 30px;
@@ -1315,7 +1319,6 @@ p {
 }
 
 .why-mobiclocks-title h3 {
-    font-size: 68px;
     color: #04396C;
     font-weight: 500;
     text-align: center;
@@ -1393,6 +1396,11 @@ p {
 @media (max-width: 1800px) {
     .container {
         width: 1200px;
+    }
+    ::placeholder {
+        color: #909ba5;
+        font-size: 18px;
+
     }
     .header-menu  li a{
         color: #04369C;
@@ -1499,8 +1507,7 @@ p {
     }
     .footer-menu-section {
         display: flex;
-
-        gap: 60px;
+        gap: 50px;
         padding-bottom: 152px;
     }
     .footer-info-text a {
@@ -1515,32 +1522,143 @@ p {
 
 
 
-
-
 }
 
 
 
 @media (max-width: 1570px) {
     .container {
-        width: 1140px;
+        width: 1333px;
     }
-   .banner-info h1{
+
+
+    /*h2{*/
+    /*    font-size: 20px !important;*/
+    /*}*/
+    /*h3{*/
+    /*    font-size: 15px !important;*/
+    /*}*/
+    /*p{*/
+    /*    font-size: 10px !important;*/
+    /*}*/
+    .banner-info h1 {
+        font-size: 45px;
+    }
+    .banner-info h3 {
         font-size: 25px;
     }
-    p{
-        font-size: 10px;
+    .banner-img img {
+        height: 410px;
+        width: 580px;
+
     }
+    .banner-play-img img {
+        position: absolute;
+        top: 130px;
+        left: -35px;
+        z-index: 99;
+    }
+    .banner-img-soc a img {
+        width: 150px;
+        height: 65px;
+        box-shadow: -5px 3px 9px 1px #fff;
+    }
+    .construction-industry-title h2 {
+        text-align: center;
+        font-weight: 500;
+        color: #04396C;
+    }
+    .construction-industry-text {
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 30px;
+        width: 815px;
+        margin: 0 auto;
+        color: #04396C;
+    }
+    .customer-reviews-tabs-item.active:after {
+        content: "";
+        top: 96px;
+    }
+    .multiple-unique-features-tabs {
+        display: flex;
+        gap: 33px;
+        justify-content: center;
+        padding: 10px 0;
+        border-bottom: 8px solid rgba(0, 0, 0, 0.07);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        content: "";
+        background: #60D58D;
+        height: 8px;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        z-index: 99;
+        top: 76px;
+        left: 0;
+        border-radius: 6px;
+    }
+    .many-to-save-tabs-item.active:after {
+        content: "";
+
+        top: 48px;
+
+    }
+    .our-story-body-info {
+        width: 565px;
+    }
+    .footer-menu-section {
+
+        margin-left: 50px;
+    }
+    .copy-right .container {
+
+        justify-content: space-evenly;
+
+    }
+    .fs-60 {
+        font-size: 50px !important;
+    }
+    .fs-42{
+        font-size: 38px !important;
+    }
+    .fs-32{
+        font-size: 23px !important;
+    }
+    .fs-23{
+        font-size: 20px !important;
+    }
+
 
 }
 
 
-@media (max-width: 1400px) {
+
+
+
+@media (max-width: 1380px) {
     .container {
-        width: 1140px;
+        width: 1100px;
     }
-
+    header {
+        background-image: url(images/header-bg.png);
+        background-size: 1340px;
+        background-repeat: no-repeat;
+    }
+    .banner-play-img img {
+        position: absolute;
+        top: 130px;
+        left: -35px;
+        z-index: 99;
+    }
+    
 }
+
+
 
 @media (max-width: 1200px) {
     .container {
