@@ -13,6 +13,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
+main {top: -14px;position: relative;}
 
 a {
     cursor: pointer;
@@ -98,9 +99,10 @@ a {
 }
 header {
     background-image: url("images/header-bg.png");
-    background-size: 1333px;
+    background-size: 1335px;
     background-repeat: no-repeat;
-    height: 1165px;
+    height: 1078px;
+    padding-top: 20px;
 }
 
 .header {
@@ -111,13 +113,13 @@ header {
 }
 
 .container {
-    width: 1360px;
+    width: 1374px;
     margin: 0 auto;
 }
 
 .menu ul.header-menu {
     display: flex;
-    gap: 58px;
+    gap: 53px;
 }
 
 .menu ul li {
@@ -133,6 +135,8 @@ header {
 
 .menu ul li a {
     text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .menu li.nav-item:hover .sub-menu {
@@ -190,7 +194,7 @@ header {
 
 
 .banner-img img {
-    height: 414px;
+    height: 425px;
     border-radius: 12px;
     position: relative;
     right: -72px;
@@ -198,7 +202,7 @@ header {
 
 .banner-img-soc {
     display: flex;
-    gap: 29px;
+    gap: 22px;
     margin-top: 82px;
     margin-bottom: 60px;
     justify-content: center;
@@ -244,7 +248,8 @@ a.banner-info-btn:hover {
 .question-img {
     display: inline-block;
     position: fixed;
-    bottom: 81px;
+    bottom: 56px;
+    z-index: 9999;
     right: 57px;
 }
 
@@ -274,6 +279,9 @@ a.banner-info-btn:hover {
     margin: 0 auto;
     color: #04396C;
 }
+.construction-industry-title {
+    margin-bottom: 4px;
+}
 
 
 .section-left-title h3 {
@@ -285,35 +293,37 @@ a.banner-info-btn:hover {
 
 
 .clock-section {
-    border: 1px dashed #04396c7a;
+    border: 2px dashed #04396c7a;
     border-radius: 50%;
-    width: 550px;
-    height: 550px;
+    width: 635px;
+    height: 606px;
     margin: 80px auto;
     position: relative;
 }
 
 .box-item-1 {
     position: absolute;
-    right: 195px;
-    top: -54px;
+    right: 229px;
+    top: -81px;
 }
 
 .box-item-1 p {
     width: 175px;
+    line-height: 4px;
 }
 
 .box-item-1 i {
     position: absolute;
     transform: rotate(-97deg);
-    top: 46px;
-    font-size: 20px;
-    color: #ccc;
+    top: 73px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #04369c82;
 }
 
 .clock-box img {
-    width: 124px;
-    height: 124px;
+    width: 100%;
+    height: 100%;
 }
 
 .clock-box {
@@ -430,37 +440,37 @@ footer {
 }
 
 .clock-box {
-    font-size: 17px;
-    width: 130px;
+    font-size: 20px;
+    width: 158px;
+    line-height: 20px;
     background-color: #fafdff;
 }
 
 .box-item-2 {
     position: absolute;
-    top: 200px;
+    top: 214px;
     background-color: #fafdff;
-    left: -50px;
+    left: -63px;
 }
 
 .box-item-2 p {
-    width: 137px;
     text-align: center;
-
 }
 
 .box-item-2 i {
-    bottom: -10px;
+    bottom: -12px;
     position: absolute;
     transform: rotate(-195deg);
-    font-size: 20px;
-    color: #7d8bdec9;
-    right: 53px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #04396c87;
+    right: 63px;
 }
 
 .box-item-3 {
     position: absolute;
-    right: -65px;
-    top: 200px;
+    right: -63px;
+    top: 213px;
 }
 
 .box-item-3 p {
@@ -472,43 +482,47 @@ footer {
 .box-item-3 i {
     position: absolute;
     transform: rotate(-15deg);
-    font-size: 20px;
+    font-size: 23px;
     color: #4b68ba7a;
-    left: 51px;
-    top: -5px;
+    font-weight: 600;
+    left: 76px;
+    top: -7px;
 }
 
 
 .box-item-4 {
-    right: 195px;
+    right: 230px;
     position: absolute;
-    bottom: -104px;
+    bottom: -119px;
 }
 
 .box-item-4 p {
     text-align: center;
+    width: 152px;
 }
 
 .box-item-4 i {
     position: absolute;
     transform: rotate(-280deg);
-    top: 52px;
-    left: 119px;
-    font-size: 20px;
+    top: 65px;
+    left: 148px;
+    font-size: 24px;
+    font-weight: 600;
     color: #366da9a3;
 }
 
 .box-item-5 {
-    right: 144px;
-    top: 277px;
+    right: 160px;
+    top: 263px;
     line-height: 65px;
-    width: 240px;
+    width: 320px;
     position: absolute;
 }
 
 .box-item-5 p {
     font-size: 68px;
     width: 215px;
+    margin: 0 auto;
     padding: 0 0px;
     color: #04396C;
     text-align: center;
@@ -517,9 +531,10 @@ footer {
 }
 
 .box-item-5 span {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 42px;
+    font-weight: 700;
     color: #04396C;
+    padding-left: 4px;
 }
 
 
@@ -605,11 +620,11 @@ img.img55 {
 
 .many-to-save-tabs {
     display: flex;
-    gap: 30px;
     justify-content: space-between;
     border-bottom: 8px solid rgba(0, 0, 0, 0.07);
     text-align: center;
-    margin-bottom: 93px;
+    padding-top: 19px;
+    margin-bottom: 102px;
     padding-bottom: 20px;
 }
 
@@ -636,10 +651,10 @@ img.img55 {
 }
 
 .many-to-save-body-info p {
-    font-size: 23px;
-    margin-top: 31px;
+    margin-top: 15px;
     color: #04396C;
     width: 425px;
+    font-weight: 300;
     display: inline-block;
 }
 
@@ -693,12 +708,12 @@ img.img55 {
 }
 
 .many-to-save-section {
-    margin: 160px 0 0;
+    margin: 235px 0 0;
     background: url("images/many-to-save-body-img.png");
     background-repeat: no-repeat;
-    background-position: 84% 127px;
+    background-position: 100% 127px;
     padding: 0 0 400px;
-    background-size: 70%;
+    background-size: 77%;
 }
 
 
@@ -793,11 +808,11 @@ img.img55 {
 .multiple-unique-features-tabs {
     display: flex;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 8px solid rgba(0, 0, 0, 0.07);
     text-align: center;
-    padding-bottom: 20px;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.07);
+    padding-bottom: 14px;
 }
 
 .multiple-unique-features-section-2 {
@@ -820,9 +835,9 @@ img.img55 {
 
 .geo_fence {
     flex: 1;
-    background-size: 50%;
+    background-size: 61%;
     background-image: url("images/multiple-Unique-Features-bg.png");
-    background-position: 66% 33%;
+    background-position: 78% 30%;
     background-repeat: no-repeat;
 }
 
@@ -880,7 +895,7 @@ img.img55 {
     display: inline-block;
     position: absolute;
     z-index: 99;
-    top: 83px;
+    top: 77px;
     left: 0;
     border-radius: 6px;
 }
@@ -893,10 +908,9 @@ img.img55 {
 }
 
 .multiple-unique-features-title p {
-    font-size: 68px;
     font-weight: 500;
     color: #04396C;
-
+    margin-bottom: 45px;
 }
 
 .multiple-unique-features-section {
@@ -919,13 +933,13 @@ img.img55 {
 
 .banner-play-img img {
     position: absolute;
-    top: 130px;
-    right: -160px;
+    top: 138px;
+    right: -159px;
     z-index: 99;
 }
 
 .construction-industry-section-info {
-    margin-bottom: 120px;
+    margin-bottom: 182px;
 }
 
 .customer-reviews-section-1-title p {
@@ -1023,17 +1037,20 @@ i.fa.fa-toggle-on {
 .our-story-section {
     justify-content: space-between;
     display: flex;
-    gap: 96px;
-    margin-bottom: 400px;
+    gap: 100px;
+    height: 502px;
+    margin-bottom: 378px;
+    margin-top: 257px;
 }
 
 .our-story-img img.our-img {
-    width: 655px;
+    width: 78%;
     padding: 20px;
     z-index: 9999;
+    margin-top: 32px;
     position: relative;
     display: inline-block;
-    float: right;
+    margin-left: 172px;
     box-sizing: border-box;
 }
 
@@ -1047,7 +1064,8 @@ i.fa.fa-toggle-on {
     box-sizing: border-box;
     box-shadow: 2px 3px 14px 0px #ccc;
     background: #fff;
-    flex: 1;
+    width: 46%;
+    border-radius: 20px;
 }
 
 .our-story-body-title p {
@@ -1057,15 +1075,18 @@ i.fa.fa-toggle-on {
 
 .our-story-body-title {
     margin-bottom: 20px;
+    margin-top: 14px;
+    width: 500px;
 }
 
 .our-story-body-info {
     width: 660px;
+    margin-top: 19px;
 }
 
 .our-story-body-info p {
     color: #04369C;
-    margin: 20px 0;
+    margin: 23px 0;
     font-weight: 300;
     line-height: 25px;
 }
@@ -1073,10 +1094,10 @@ i.fa.fa-toggle-on {
 
 img.bg {
     position: absolute;
-    right: -210px;
-    bottom: -340px;
+    right: -177px;
+    bottom: -290px;
     z-index: -1;
-    width: 510px;
+    width: 500px;
 }
 
 button.owl-dot {
@@ -1115,9 +1136,10 @@ button.owl-dot.active {
     position: relative;
     background-image: url("images/see_action_bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
+    background-size: 65%;
+    background-position: 48% -80px;
     padding: 144px 0;
+    z-index: 999944444;
 }
 
 .see-mobiclocks-section-img {
@@ -1128,7 +1150,7 @@ button.owl-dot.active {
 
 .see-mobiclocks-section-info {
     position: relative;
-    top: 50px;
+    top: -15px;
 }
 
 .see-mobiclocks-section-info h3 {
@@ -1154,11 +1176,11 @@ p {
 .see-mobiclocks-section-btn {
     text-align: center;
     background-color: #60D58D;
-    width: 216px;
+    width: 192px;
     border-radius: 12px;
     margin: 0 auto;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 18px 0;
+    margin-top: 22px;
 }
 
 .see-mobiclocks-section-btn a {
@@ -1174,7 +1196,7 @@ p {
     font-weight: 500;
     line-height: 67px;
     color: #04396C;
-    margin-bottom: 31px;
+    margin-bottom: 16px;
 }
 
 .start-saving-with-mobiclock-info p {
@@ -1207,10 +1229,11 @@ p {
     justify-content: space-between;
     padding: 0 0 289px 0px;
     background-image: url("../images/1111.png");
-    background-size: 51%;
-    background-position: top right;
+    background-size: 63%;
+    background-position: 100%  51%;
     background-repeat: no-repeat;
-    margin-top: 60px;
+    margin-top: 51px;
+    z-index: -1111;
 }
 
 .start-saving-with-mobiclock-section-left {
@@ -1242,7 +1265,6 @@ p {
 }
 
 .geo-fence-description {
-    font-size: 23px;
     color: #04396C;
     width: 425px;
     display: inline-block;
@@ -1251,9 +1273,10 @@ p {
 }
 
 .geo-fence-description p {
-    font-size: 23px;
-    margin-top: 24px;
+    margin-top: 21px;
     color: #04396C;
+    padding-bottom: 10px;
+    line-height: 32px;
 }
 
 .flag-alert-system-description {
@@ -1279,23 +1302,22 @@ p {
 }
 
 .multiple-unique-features-body-info {
-    margin-top: 80px;
+    margin-top: 92px;
 }
 
 .practical-features-section {
     background-image: url("images/header-bg-noth.png"), url('images/header-bg-practical.png');
-    background-position: right 160px, left top;
+    background-position: 93% 123px, left top;
     background-repeat: no-repeat, no-repeat;
     position: relative;
-    background-size: 54%, contain;
-    top: -290px;
+    background-size: 55%, 58.2%;
+    bottom: 355px;
     display: inline-block;
     width: 100%;
 }
 
 
 .practical-features-title h3 {
-    font-size: 68px;
     font-weight: 700;
     line-height: 67px;
     color: #fff;
@@ -1312,7 +1334,7 @@ p {
 .practical-features-info {
     width: 600px;
     display: inline-block;
-    padding: 350px 0 150px;
+    padding: 332px 0px 150px;
 }
 
 .practical-features-btn:hover {
@@ -1332,7 +1354,7 @@ p {
     width: 915px;
     line-height: 30px;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 5px auto;
     text-align: center;
 }
 
@@ -1369,7 +1391,7 @@ p {
     background-color: #fff;
     font-size: 18px;
     border-radius: 10px;
-    width: 220px;
+    width: 190px;
     color: #47B7E8;
     font-weight: 700;
     text-decoration: none;
@@ -1379,7 +1401,7 @@ p {
 
 .why-mobiclocks-section {
     position: relative;
-    top: 90px;
+    top: 68px;
 }
 
 .clock-section:before {
@@ -1389,7 +1411,7 @@ p {
     display: inline-block;
     background-image: url("images/logo.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 172px;
 }
 
 
@@ -1419,10 +1441,9 @@ p {
     }
 
     .banner-img img {
-        height: 414px;
         border-radius: 12px;
         position: relative;
-        right: 0px;
+        right: 103px;
     }
     .banner-play-img img {
         position: absolute;
@@ -1529,7 +1550,7 @@ p {
 
 
 
-@media (max-width: 1570px) {
+@media (max-width: 1600px) {
     .container {
         width: 1333px;
     }
@@ -1546,6 +1567,7 @@ p {
     /*}*/
     .banner-info h1 {
         font-size: 45px;
+        width: 635px;
     }
     .banner-info h3 {
         font-size: 25px;
@@ -1636,6 +1658,21 @@ p {
     }
 
 
+    .our-story-img {
+        position: relative;
+        width: 54%;
+        border-radius: 20px;
+    }
+
+    .our-story-section {
+
+        margin-top: 140px;
+    }
+
+
+
+
+
 }
 
 
@@ -1653,13 +1690,22 @@ p {
     }
     .menu ul.header-menu {
         display: flex;
-        gap: 35px;
+        gap: 17px;
     }
     .banner-play-img img {
         position: absolute;
         top: 130px;
         left: -35px;
         z-index: 99;
+    }
+    .banner-img img {
+        height: 410px;
+        width: 470px;
+    }
+    .banner-img img {
+        border-radius: 12px;
+        position: relative;
+        right: -27px;
     }
 
 }
