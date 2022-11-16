@@ -1717,6 +1717,9 @@ p {
     .container {
         width: 960px;
     }
+    .our-story-body-info {
+        width: 100%;
+    }
 }
 
 @media (max-width: 992px) {
