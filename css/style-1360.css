@@ -294,18 +294,24 @@ a.banner-info-btn:hover {
 
 
 .clock-section {
-    border: 2px dashed #04396c7a;
-    border-radius: 50%;
+    /* border: 2px dashed #04396c7a; */
+    /* border-radius: 50%; */
     width: 635px;
-    height: 606px;
+    height: 615px;
     margin: 80px auto;
     position: relative;
+    background: url(images/clock-borders.png);
+    background-repeat: no-repeat;
+    background-size: 94%;
+    background-position: 3px 0;
+    position: relative;
+    top: -6px;
 }
 
 .box-item-1 {
     position: absolute;
-    right: 229px;
-    top: -81px;
+    right: 242px;
+    top: -75px;
 }
 
 .box-item-1 p {
@@ -316,7 +322,7 @@ a.banner-info-btn:hover {
 .box-item-1 i {
     position: absolute;
     transform: rotate(-97deg);
-    top: 73px;
+    top: 79px;
     font-weight: 600;
     font-size: 24px;
     color: #04369c82;
@@ -325,6 +331,7 @@ a.banner-info-btn:hover {
 .clock-box img {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .clock-box {
@@ -444,14 +451,14 @@ footer {
     font-size: 20px;
     width: 158px;
     line-height: 20px;
-    background-color: #fafdff;
+    background-color: #fafdff00;
 }
 
 .box-item-2 {
     position: absolute;
-    top: 214px;
-    background-color: #fafdff;
-    left: -63px;
+    top: 220px;
+    background-color: #fafdff00;
+    left: -76px;
 }
 
 .box-item-2 p {
@@ -465,13 +472,13 @@ footer {
     font-size: 24px;
     font-weight: 600;
     color: #04396c87;
-    right: 63px;
+    right: 49px;
 }
 
 .box-item-3 {
     position: absolute;
-    right: -63px;
-    top: 213px;
+    right: -49px;
+    top: 220px;
 }
 
 .box-item-3 p {
@@ -486,15 +493,15 @@ footer {
     font-size: 23px;
     color: #4b68ba7a;
     font-weight: 600;
-    left: 76px;
+    left: 89px;
     top: -7px;
 }
 
 
 .box-item-4 {
-    right: 230px;
+    right: 243px;
     position: absolute;
-    bottom: -119px;
+    bottom: -118px;
 }
 
 .box-item-4 p {
@@ -505,7 +512,7 @@ footer {
 .box-item-4 i {
     position: absolute;
     transform: rotate(-280deg);
-    top: 65px;
+    top: 68px;
     left: 148px;
     font-size: 24px;
     font-weight: 600;
@@ -513,9 +520,9 @@ footer {
 }
 
 .box-item-5 {
-    right: 160px;
-    top: 263px;
-    line-height: 65px;
+    right: 172px;
+    top: 269px;
+    line-height: 72px;
     width: 320px;
     position: absolute;
 }
@@ -712,8 +719,8 @@ img.img55 {
     margin: 235px 0 0;
     background: url("images/many-to-save-body-img.png");
     background-repeat: no-repeat;
-    background-position: 100% 127px;
-    padding: 0 0 400px;
+    background-position: 96% 122px;
+    padding: 0px 0 343px;
     background-size: 77%;
 }
 
@@ -1138,9 +1145,12 @@ button.owl-dot.active {
     background-image: url("images/see_action_bg.png");
     background-repeat: no-repeat;
     background-size: 65%;
-    background-position: 48% -80px;
+    background-position: 46% 0px;
     padding: 144px 0;
     z-index: 999944444;
+    position: relative;
+    top: -27px;
+    /* top: 0; */
 }
 
 .see-mobiclocks-section-img {
@@ -1415,9 +1425,13 @@ p {
     background-position: center 172px;
 }
 
+div#clock-section i {
+    display: none;
+}
 
-
-
+.many-to-save-section.easy-time-tracking {
+    background-image: url("images/easy-time-traking.png");
+}
 
 @media (max-width: 1800px) {
     .container {

@@ -53,6 +53,8 @@ $(".many-to-save-tabs-item").on("click", function (){
     $(this).addClass('active');
     $('.many-to-save-body').removeClass('active');
     let data_id = $(this).data('id');
+    let data_bg = $(this).data('bg');
+    $(".many-to-save-section").addClass(data_bg);
     $('#' +  data_id).addClass('active');
 });
 
