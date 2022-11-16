@@ -165,7 +165,8 @@ header {
 .btn-trial {
     background-color: #47B7E8;
     color: #fff;
-    padding: 17px 13px;
+    padding: 17px 21px;
+    margin-right: 13px;
     border-radius: 10px;
 }
 
