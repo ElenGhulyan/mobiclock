@@ -6,7 +6,7 @@
 
 body {
     font-family: "Hind Madurai";
-    background-color: #FAFDFF;
+    background-color: #FA;
 }
 
 .content {
@@ -162,6 +162,7 @@ header {
     color: #04396C;
 }
 
+
 .btn-trial {
     background-color: #47B7E8;
     color: #fff;
@@ -289,7 +290,7 @@ a.banner-info-btn:hover {
     font-size: 60px;
     color: #04396C;
     font-weight: 500;
-    margin-bottom: 45px;
+    margin-bottom: 70px;
 }
 
 
@@ -337,11 +338,13 @@ a.banner-info-btn:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding-left: 6px;
 }
 
 .forms-box input {
     display: inline-block;
-    width: 100%;
+    width: 99%;
+    height: 82px;
     padding: 15px;
     border: 1px solid #47B7E866;
     border-radius: 20px;
@@ -352,11 +355,11 @@ a.banner-info-btn:hover {
 
 .forms-message-box textarea {
     margin-top: 44px;
-    margin-bottom: 28px;
+    margin-bottom: 23px;
     display: inline-block;
     width: 100%;
-    height: 200px;
-    padding: 15px;
+    height: 150px;
+    padding: 22px;
     border: 1px solid #47B7E866;
     border-radius: 20px;
     font-size: 20px;
@@ -368,13 +371,13 @@ a.banner-info-btn:hover {
 .forms-message-btn {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 128px;
+    margin-bottom: 112px;
 }
 
 .forms-message-btn button {
     background-color: #47B7E8;
-    width: 160px;
-    padding: 14px 14px;
+    width: 156px;
+    padding: 12px 14px;
     font-size: 18px;
     border-radius: 10px;
     border: none;
@@ -393,19 +396,19 @@ footer {
     font-weight: 400;
     padding-top: 8px;
     text-decoration: none;
-    font-size: 23px;
-    line-height: 28px;
+    line-height: 25px;
 }
 
 .footer-info-text a i {
     padding-right: 9px;
+    font-size: 18px;
 }
 
 
 .footer-menu-section {
     display: flex;
-    gap: 70px;
-    padding-bottom: 152px;
+    gap: 86px;
+    padding-bottom: 80px;
 }
 
 .box-item-title p {
@@ -423,7 +426,7 @@ footer {
 
 .copy-right {
     border-top: 1px solid #ffffff;
-    padding: 13px 0;
+    padding: 3px 0;
 }
 
 .copy-right .container {
@@ -436,7 +439,7 @@ footer {
 
 .copy-right-social a {
     color: white;
-    font-size: 27px;
+    font-size: 37px;
     padding-left: 8px;
 }
 
@@ -543,10 +546,16 @@ footer {
     border: 1px solid #47B7E8;
     justify-content: space-between;
     gap: 60px;
-    padding: 20px 40px;
+    height: 96px;
+    width: 93%;
+    background-color: #fff;
+    padding: 0px 40px;
     align-items: center;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-bottom: 21px;
+}
+.faq-title.section-left-title {
+    margin-bottom: 70px;
 }
 
 .faq-section-box-arrow i {
@@ -584,7 +593,7 @@ footer {
 .mobiclocks-in-action-body {
     text-align: center;
     font-weight: 300;
-    padding: 20px 74px;
+    padding: 7px 74px;
     line-height: 30px;
     position: relative;
     color: #04396C;
@@ -592,17 +601,22 @@ footer {
 
 .mobiclocks-in-action-btn {
 
+    margin-top: 15px;
 }
 
 .mobiclocks-in-action-section {
     text-align: center;
-    margin-bottom: 136px;
-    position: relative;
+    margin-bottom: 124px;
+    background-image: url("images/mobiclocks-bg.png");
+    padding-top: 306px;
+    background-size: 67%;
+    background-position: 264px 204px;
+    background-repeat: no-repeat;
 }
 
 .mobiclocks-in-action-btn a {
     background: #60D58D;
-    padding: 18px 40px;
+    padding: 18px 45px;
     font-size: 18px;
     display: inline-block;
     text-decoration: none;
@@ -720,20 +734,21 @@ img.img55 {
 
 .customer-reviews-tabs {
     display: flex;
-    gap: 35px;
+    gap: 38px;
     justify-content: center;
     padding: 10px 0;
     border-bottom: 8px solid rgba(0, 0, 0, 0.07);
     text-align: center;
     margin-bottom: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 16px;
 }
 
 .customer-reviews-section-2 {
-    margin: 140px 0;
     position: relative;
     transform: translateY(200px);
     opacity: 0;
+    /* margin-top: 135px; */
+    padding-top: 135px;
     transition: 3s all ease;
 }
 
@@ -753,6 +768,8 @@ img.img55 {
 .customer-reviews-body-info h3 {
     color: #04396C;
     line-height: 46px;
+    padding-left: 79px;
+    padding-top: 10px;
 }
 
 .customer-reviews-body-info {
@@ -762,6 +779,9 @@ img.img55 {
 .customer-reviews-body-info p {
     font-size: 23px;
     margin-top: 24px;
+    padding-left: 80px;
+    width: 430px;
+    display: inline-block;
     color: #04396C;
 }
 
@@ -778,8 +798,7 @@ img.img55 {
 
 .customer-reviews-body.active {
     display: flex;
-    gap: 50px;
-    margin-bottom: 205px;
+    gap: 47px;
 }
 
 
@@ -800,7 +819,7 @@ img.img55 {
     display: inline-block;
     position: absolute;
     z-index: 99;
-    top: 102px;
+    top: 78px;
     left: 0;
     border-radius: 6px;
 }
@@ -808,7 +827,7 @@ img.img55 {
 
 .multiple-unique-features-tabs {
     display: flex;
-    gap: 50px;
+    gap: 53px;
     justify-content: space-between;
     padding: 10px 0;
     text-align: center;
@@ -952,6 +971,8 @@ img.img55 {
 
 .customer-reviews-section-1-title {
     margin-bottom: 30px;
+    position: relative;
+    top: -96px;
 }
 
 .customer-reviews-item {
@@ -1016,8 +1037,8 @@ img.img55 {
 i.fa.fa-toggle-on {
     font-size: 48px;
     color: #9ede9ca6;
-    top: -72px;
-    left: 250px;
+    top: 0px;
+    left: 266px;
     transform: rotate(-15deg);
     position: absolute;
 }
@@ -1251,7 +1272,7 @@ p {
 }
 
 .box-item-title {
-    padding-top: 16px;
+    padding-top: 11px;
     line-height: 32px;
 }
 
@@ -1262,7 +1283,8 @@ p {
 }
 
 .footer-menu-logo {
-    margin-bottom: 16px;
+    margin-bottom: -2px;
+    margin-left: 9px;
 }
 
 .geo-fence-description {
@@ -1417,6 +1439,23 @@ p {
 
 
 
+.contact-us {
+    margin-top: 155px;
+}
+
+.contact-us-title.section-left-title {
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1800px) {
@@ -1434,7 +1473,7 @@ p {
     }
     .menu ul.header-menu {
         display: flex;
-        gap: 45px;
+        gap: 30px;
     }
     a.nav-link.btn-trial {
         background-color: #ffffffbf;
@@ -1449,12 +1488,18 @@ p {
     .banner-play-img img {
         position: absolute;
         top: 130px;
-        left: 245px;
+        left: 151px;
         z-index: 99;
     }
     .banner-img-soc a img {
         width: 150px;
         height: 65px;
+    }
+
+    .banner-info h1 {
+
+        font-size: 59px;
+
     }
     .multiple-unique-features-tabs-item.active:after {
         content: "";
@@ -1464,7 +1509,7 @@ p {
         display: inline-block;
         position: absolute;
         z-index: 99;
-        top: 76px;
+        top: 107px;
         left: 0;
         border-radius: 6px;
     }
@@ -1479,6 +1524,11 @@ p {
         background-position: right 35px;
         background-repeat: no-repeat;
         background-size: 45%;
+    }
+    .geo_fence {
+
+        background-size: 59%;
+
     }
     .many-to-save-section {
         margin: 160px 0 0;
@@ -1501,6 +1551,11 @@ p {
         color: #04396C;
         margin-bottom: 21px;
     }
+    .start-saving-with-mobiclock-section {
+        padding: 0px 0 255px 0px;
+        background-size: 56%;
+
+    }
     .customer-reviews-tabs {
         display: flex;
         gap: 25px;
@@ -1519,20 +1574,25 @@ p {
         display: inline-block;
     }
     .customer-reviews-tabs-item.active:after {
-        content: "";
-        background: #47B7E8;
-        height: 8px;
-        width: 100%;
-        display: inline-block;
-        position: absolute;
-        z-index: 99;
-        top: 96px;
-        left: 0;
-        border-radius: 6px;
+        top: 133px;
+
+    }
+    .practical-features-description {
+
+        width: 520px;
+    }
+    .our-story-section {
+
+        margin-top: 124px;
+    }
+    .mobiclocks-in-action-section {
+
+        padding-top: 275px;
+
     }
     .footer-menu-section {
         display: flex;
-        gap: 50px;
+        gap: 59px;
         padding-bottom: 152px;
     }
     .footer-info-text a {
@@ -1544,6 +1604,28 @@ p {
         font-size: 20px;
         line-height: 28px;
     }
+    .practical-features-info {
+
+        padding: 250px 0px 150px;
+    }
+    .practical-features-section {
+
+        background-position: 87% 85px, left top;
+
+        background-size: 50%, 58.2%;
+
+    }
+    .copy-right .container {
+        gap: 300px;
+
+    }
+    .fs-60 {
+        font-size: 55px !important;
+    }
+    .fs-32 {
+        font-size: 25px !important;
+    }
+
 
 
 
@@ -1566,6 +1648,17 @@ p {
     /*p{*/
     /*    font-size: 10px !important;*/
     /*}*/
+
+    section {
+        padding-top: 167px;
+    }
+    header {
+        background-image: url(images/header-bg.png);
+        background-size: 1169px;
+        background-repeat: no-repeat;
+        height: 1034px;
+        padding-top: 20px;
+    }
     .banner-info h1 {
         font-size: 45px;
         width: 635px;
@@ -1574,19 +1667,47 @@ p {
         font-size: 25px;
     }
     .banner-img img {
-        height: 410px;
-        width: 470px;
+        height: 400px;
+        width: 500px;
     }
     .banner-play-img img {
         position: absolute;
         top: 130px;
-        left: -35px;
+        left: -115px;
         z-index: 99;
+    }
+    .banner-img img {
+        border-radius: 12px;
+        position: relative;
+        right: 137px;
+        box-shadow: -14px 13px 19px 2px #fffbfbb5;
     }
     .banner-img-soc a img {
         width: 150px;
         height: 65px;
         box-shadow: -5px 3px 9px 1px #fff;
+    }
+    .question-img {
+
+        right: 7px;
+    }
+    .clock-section {
+        border: 2px dashed #04396c7a;
+        border-radius: 50%;
+        width: 580px;
+        height: 570px;
+        margin: 80px auto;
+        position: relative;
+    }
+    .box-item-1 {
+
+        right: 196px;
+        top: -81px;
+    }
+    .box-item-4 {
+        right: 205px;
+        position: absolute;
+        bottom: -119px;
     }
     .construction-industry-title h2 {
         text-align: center;
@@ -1633,6 +1754,9 @@ p {
         top: 48px;
 
     }
+    .mobiclocks-in-action-section {
+        padding-top: 216px;
+    }
     .our-story-body-info {
         width: 565px;
     }
@@ -1644,6 +1768,17 @@ p {
 
         justify-content: space-evenly;
 
+    }
+    .mobiclocks-in-action-section {
+
+        background-position: 264px 122px;
+
+    }
+    .face_recognition {
+
+        background-position: right 121px;
+
+        background-size: 45%;
     }
     .fs-60 {
         font-size: 50px !important;
@@ -1669,6 +1804,10 @@ p {
 
         margin-top: 140px;
     }
+    .see-mobiclocks-section {
+        padding: 73px 0;
+
+    }
 
 
 
@@ -1676,6 +1815,16 @@ p {
 
 }
 
+
+
+
+@media (max-width: 1480px) {
+    .practical-features-info {
+        width: 600px;
+        display: inline-block;
+        padding: 179px 50px 150px;
+    }
+}
 
 
 
