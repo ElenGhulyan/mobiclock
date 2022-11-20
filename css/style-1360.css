@@ -608,9 +608,9 @@ footer {
     text-align: center;
     margin-bottom: 124px;
     background-image: url("images/mobiclocks-bg.png");
-    padding-top: 306px;
+    padding-top: 304px;
     background-size: 67%;
-    background-position: 264px 204px;
+    background-position: 254px 191px;
     background-repeat: no-repeat;
 }
 
@@ -748,7 +748,7 @@ img.img55 {
     transform: translateY(200px);
     opacity: 0;
     /* margin-top: 135px; */
-    padding-top: 135px;
+    padding-top: 152px;
     transition: 3s all ease;
 }
 
@@ -798,7 +798,7 @@ img.img55 {
 
 .customer-reviews-body.active {
     display: flex;
-    gap: 47px;
+    gap: 23px;
 }
 
 
@@ -972,12 +972,12 @@ img.img55 {
 .customer-reviews-section-1-title {
     margin-bottom: 30px;
     position: relative;
-    top: -96px;
+    top: -25px;
 }
 
 .customer-reviews-item {
     border-radius: 35px;
-    padding: 30px 30px;
+    padding: 35px;
 }
 
 .customer-reviews-section-1-tabs {
@@ -985,6 +985,10 @@ img.img55 {
 
 .customer-reviews-item-title {
     display: flex;
+    gap: 36px;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 11px;
 }
 
 .customer-reviews-section-1-tabs {
@@ -999,15 +1003,15 @@ img.img55 {
 }
 
 .customer-reviews-item-title-info {
-    width: 375px;
     font-size: 21px;
-    padding: 0 35px;
     color: #04396C;
+    width: 65%;
+    padding-top: 17px;
 }
 
 .customer-reviews-item-title-img img {
-    width: 90px;
-    height: 90px;
+    width: 94px;
+    height: 94px;
 }
 
 
@@ -1130,7 +1134,7 @@ button.owl-dot {
 }
 
 .owl-carousel button.owl-dot {
-    padding: 2px 20px !important;
+    padding: 3px 34px !important;
     border-radius: 50px;
     background: #ccc !important;
 }
@@ -1142,6 +1146,9 @@ button.owl-dot.active {
 .owl-dots {
     text-align: center;
     margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .owl-carousel .owl-stage-outer {
@@ -1567,6 +1574,11 @@ input[type="checkbox"]{
     }
 }
 
+.customer-reviews-section-1 {
+    padding: 0 94px;
+    position: relative;
+    top: -72px;
+}
 
 
 /*///////////////////////////////////////*/

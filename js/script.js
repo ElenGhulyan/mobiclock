@@ -80,7 +80,7 @@ $(".multiple-unique-features-tabs-item").on("click", function (){
 $('.owl-carousel').owlCarousel({
     items:2,
     loop:true,
-    margin:30,
+    margin:20,
     autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true
