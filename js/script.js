@@ -85,3 +85,13 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
+
+
+
+
+function classToggle() {
+    var el = document.querySelector('.icon-cards__content');
+    el.classList.toggle('step-animation');
+}
+
+document.querySelector('#toggle-animation').addEventListener('click', classToggle);
