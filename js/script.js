@@ -40,9 +40,21 @@ item_4.addEventListener('mouseenter', (event) => {
 
 
 $(".faq-section-box").on("click", function () {
-    $(this).find('.faq-body').slideToggle(500);
+
+    $(this).find('.faq-body').show(500);
+    $(this).css("height" ,"120px")
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
+
 });
+$(".faq-body").on("click", function () {
+
+
+    $(this).hide(500).css("background" ,"#000");
+    $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
+
+});
+
+
 
 
 
@@ -85,13 +97,3 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
-
-
-
-
-function classToggle() {
-    var el = document.querySelector('.icon-cards__content');
-    el.classList.toggle('step-animation');
-}
-
-document.querySelector('#toggle-animation').addEventListener('click', classToggle);

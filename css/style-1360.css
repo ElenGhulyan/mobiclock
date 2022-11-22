@@ -21,6 +21,171 @@ main {top: -14px;position: relative;}
 
 
 
+.icon-cards {
+    position: relative;
+    width: 60vw;
+    height: 40vw;
+    max-width: 380px;
+    max-height: 250px;
+    margin: 0;
+    color: white;
+    perspective: 1000px;
+    transform-origin: center;
+}
+
+.icon-cards__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-30vw) rotateY(0);
+    animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+
+}
+.icon-cards__content .step-animation{
+    animation: carousel 8s infinite steps(1) forwards;
+}
+
+
+.icon-cards__item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 55vw;
+    max-width: 380px;
+    max-height: 410px;
+    background-color: white;
+    border-radius: 6px;
+    transform-origin: center;
+
+
+}
+
+.icon-cards__item:nth-child(1){
+
+    transform: rotateY(0) translateZ(35vw);
+}
+
+.icon-cards__item:nth-child(2){
+
+    transform: rotateY(120deg) translateZ(35vw);
+}
+.icon-cards__item:nth-child(3){
+
+    transform: rotateY(240deg) translateZ(35vw);
+}
+@keyframes carousel {
+    0%,  17.5%  { transform: translateZ(-35vw) rotateY(0); }
+    27.5%, 45%  { transform: translateZ(-35vw) rotateY(-120deg); }
+    55%, 72.5%  { transform: translateZ(-35vw) rotateY(-240deg); }
+    82.5%, 100% { transform: translateZ(-35vw) rotateY(-360deg); }
+}
+.carusel-body{
+
+    padding-bottom: 70px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.customer-reviews-box {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 280px;
+    height: 300px;
+    padding: 35px 35px 0;
+    box-shadow: 2px 5px 12px 0 #0000004d;
+}
+
+.customer-reviews-box .person {
+    display: flex;
+    gap: 40px;
+
+}
+
+.customer-reviews-dot {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.customer-reviews-box .person-img {
+    width: 94px;
+}
+
+.customer-reviews-box .person img {
+    width: 100%;
+}
+
+.customer-reviews-box .person .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #04396C;
+}
+
+.customer-reviews-box .person .sub-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #04396C;
+}
+
+.customer-reviews-box .box-desc {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #04396C;
+    margin-top: 36px;
+}
+
+.customer-reviews .slader {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.customer-reviews .slader span {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1px 30px;
+    border-radius: 30%;
+}
+
+.customer-reviews .slader span:nth-child(3) {
+    background-color: #47B7E8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 a {
@@ -950,7 +1115,9 @@ img.img55 {
     opacity: 1;
 }
 
-
+.multiple-unique-features-body-img {
+    display: none;
+}
 .banner-play-img {
     position: relative;
 }
@@ -1242,8 +1409,8 @@ p {
 }
 
 .start-saving-with-mobiclock-btn {
-    display: inline-block;
-    /* margin-top: 23px; */
+    display: flex;
+    justify-content: center;
 }
 
 .start-saving-with-mobiclock-btn a {
@@ -1252,6 +1419,8 @@ p {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
+    width: 223px;
+    text-align: center;
     background-color: #47B7E8;
     border-radius: 10px;
     display: inline-block;
@@ -1926,8 +2095,7 @@ input[type="checkbox"]{
         margin-top: 32px;
     }
     .banner-img img {
-        height: 447px;
-        width: 600px;
+        width: 95%;
     }
     .banner-img-soc {
 
@@ -2212,6 +2380,7 @@ input[type="checkbox"]{
         height: 80%;
     }
 
+
     .box-item-1 {
         right: 187px;
         top: -81px;
@@ -2244,6 +2413,11 @@ input[type="checkbox"]{
     .box-item-4 i {
         top: 49px;
         left: 149px;
+    }
+    .box-item-5 {
+        right: 109px;
+        top: 263px;
+
     }
 
     .many-to-save-body-info p {
@@ -2399,6 +2573,23 @@ input[type="checkbox"]{
     }
 
 
+    .owl-carousel .owl-stage-outer {
+        padding: 8px 5px;
+        display: none;
+    }
+    .carusel-body{
+        display: flex;
+        position: relative;
+        top: -86px;
+    }
+    .owl-dots {
+        display: none;
+    }
+
+
+
+
+
 
 
 }
@@ -2426,9 +2617,107 @@ input[type="checkbox"]{
         height: 47px;
 
     }
-    .clock-box img {
-        width: 70%;
+    .banner-play-img img {
+        left: 177px;
     }
+    .clock-box img {
+        width: 60%;
+    }
+    .clock-section {
+        width: 400px;
+        height: 400px;
+    }
+    .clock-section:before {
+        display: inline-block;
+        background-image: url(images/logo.png);
+        background-size: 34%;
+        background-position: center center;
+    }
+    .clock-box img {
+        width: 100%;
+    }
+
+
+    .box-item-1 {
+        width: 87px;
+        right: 149px;
+        top: -45px
+    }
+    .box-item-2 {
+        width: 87px;
+        top: 115px;
+        left: -33px;
+    }
+    .box-item-3 {
+        width: 87px;
+        right: -36px;
+        top: 126px;
+    }
+    .box-item-4 {
+        width: 87px;
+        right: 160px;
+        bottom: -85px;
+    }
+    .box-item-5 {
+        right: 32px;
+        top: 207px;
+        line-height: 31px;
+        width: 320px;
+        position: absolute;
+    }
+    .box-item-5 p {
+        font-size: 40px;
+
+    }
+    .box-item-1 p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .box-item-2 p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .box-item-3 p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .box-item-4 p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .box-item-5 span {
+        font-size: 22px;
+        font-weight: 700;
+
+        display: block;
+
+        text-align: center;
+    }
+
+
+
+    .box-item-1 i {
+        top: 33px;
+        left: -8px;
+    }
+    .box-item-2 i {
+        bottom: -17px;
+        right: 34px;
+    }
+    .box-item-4 i {
+        top: 12px;
+        left: 86px;
+    }
+    .box-item-3 i {
+        left: 30px;
+        top: -13px;
+    }
+
+
+
+
+
+
     .construction-industry-section-info {
         margin-bottom: 182px;
         margin-top: 330px;
@@ -2451,8 +2740,8 @@ input[type="checkbox"]{
     }
     .many-to-save-section {
         background-image: url(images/header-bg-2.png);
-        background-size: 50%;
-        background-position: right 203px;
+        background-size: 46%;
+        background-position: right 200px;
         background-repeat: no-repeat;
     }
     .many-to-save-tabs {
@@ -2474,6 +2763,9 @@ input[type="checkbox"]{
     .fs-23{
         font-size: 14px !important;
     }
+    .fs-32 {
+        font-size: 14px !important;
+    }
     .fs-60{
         font-size: 24px !important;
     }
@@ -2486,8 +2778,8 @@ input[type="checkbox"]{
     .see-mobiclocks-section {
         background-image: url(images/see_action_bg2.png);
         background-size: 52%;
-        background-position: 48% -62px;
-        padding: 127px 0 0;
+        background-position: 48% -116px;
+        padding: 73px 0 72px;
     }
     .see-mobiclocks-section-info p {
         width: 38%;
@@ -2511,7 +2803,7 @@ input[type="checkbox"]{
     .start-saving-with-mobiclock-section {
         /* display: flex; */
         justify-content: space-between;
-        padding: 0 0 289px 0px;
+        padding: 0 0 208px 0px;
         background-image: url(images/mobile-image.png);
         background-size: 75%;
         background-position: left 17%;
@@ -2530,7 +2822,178 @@ input[type="checkbox"]{
     .start-saving-with-mobiclock-info {
         margin-bottom: 59%;
     }
+    .learn-more{
+        display: block;
+    }
+    .our-story-img {
 
+        top: -75px;
+
+    }
+    .our-story-img img.our-img {
+        margin-left: 0px;
+        margin-top: 0;
+        width: 100%;
+    }
+    img.bg {
+        position: absolute;
+        right: -118px;
+        bottom: -144px;
+        transform: rotate(0);
+        z-index: -1;
+        width: 74%;
+    }
+    .our-story-section {
+
+        margin: 315px auto 129px;
+    }
+    .geo_fence {
+        flex: 1;
+        background-size: 47%;
+        background-image: url("images/header-bg-2.png");
+        background-position: right 64px;
+        background-repeat:  no-repeat;
+        position: relative;
+    }
+    .multiple-unique-features-body-img {
+        display: block;
+        position: relative;
+        top: 82px;
+        left: 13px;
+        width: 88%;
+    }
+    .geo-fence-description p {
+        line-height: 20px;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+    .p-2{
+        display: none;
+    }
+    .practical-features-section {
+        background-position: 58% 222px, left top;
+        background-size: 63%, 78%;
+        bottom: 355px;
+    }
+    .practical-features-description p {
+        width: 384px;
+    }
+    .practical-features-btn {
+        background-color: #47B7E8;
+        display: block;
+        margin: 230px auto 30px;
+    }
+    .practical-features-btn a {
+        font-size: 16px;
+        color: #fff;
+    }
+    .practical-features-info {
+        padding: 0 0 0;
+    }
+    .practical-features-title h3 {
+
+        margin-top: 115px;
+    }
+    .why-mobiclocks-description {
+        text-align: left;
+    }
+    .why-mobiclocks-title h3 {
+        text-align: left;
+        margin-left: 5px;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        top: 97px;
+    }
+    .customer-reviews-section-2 {
+        padding-top: 50px;
+
+    }
+    .mobiclocks-in-action-body span {
+        display: initial;
+    }
+    .mobiclocks-in-action-body {
+        text-align: left;
+        padding: 7px 0;
+    }
+    .section-center-title {
+
+        text-align: left;
+    }
+    .forms {
+        display: initial;
+        margin-bottom: 20px;
+    }
+    .forms-box {
+        margin-bottom: 14px;
+    }
+    .forms-message-box textarea {
+        margin-top: 0;
+
+    }
+    .forms-message-btn button {
+
+        width: 223px;
+        padding: 18px 14px;
+
+    }
+    .section-left-title h3 {
+
+        margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        grid-row-end: 3;
+    }
+    .box-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .box-3 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .box-6 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+    .footer-info-text {
+        padding-bottom: 43px;
+    }
+    .footer-menu-section {
+        padding-bottom: 84px;
+        gap: 20px;
+    }
+    .box-item-text p a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .container {
+        width: 100% }
 
 }
 
