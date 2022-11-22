@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
 
 body {
@@ -726,6 +726,7 @@ footer {
     align-items: center;
     border-radius: 20px;
     margin-bottom: 21px;
+    transition: all 0.5s;
 }
 .faq-title.section-left-title {
     margin-bottom: 70px;
@@ -1754,7 +1755,9 @@ input[type="checkbox"]{
     top: -72px;
 }
 
-
+.open-faq.faq-section-box.d-flex {
+    height: 120px;
+}
 /*///////////////////////////////////////*/
 
 

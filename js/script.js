@@ -41,21 +41,21 @@ item_4.addEventListener('mouseenter', (event) => {
 
 $(".faq-section-box").on("click", function () {
 
-    $(this).find('.faq-body').show(500);
-    $(this).css("height" ,"120px")
+    $(this).find('.faq-body').toggle(500);
+    $(this).toggleClass("open-faq");
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
 
 });
-$(".faq-body").on("click", function () {
+
+
+
+/*$(".faq-body").on("click", function () {
 
 
     $(this).hide(500).css("background" ,"#000");
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
 
-});
-
-
-
+});*/
 
 
 
@@ -97,3 +97,14 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:true
 });
+
+var timer = 0;
+clockTimer(timer);
+function clockTimer(timer){
+    setTimeout(function () {
+        console.log(6*timer)
+        //$('head').append('<style>.clock-section:before{transform: rotate('+6*timer+'deg)}</style>');
+        timer+=1;
+        clockTimer(timer);
+    }, 1000)
+}
