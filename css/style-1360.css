@@ -3,71 +3,15 @@
     padding: 0;
     /* transition: all 0.5s; */
 }
-
 body {
     font-family: "Hind Madurai";
     background-color: #FAFDFF; ;
 }
-
 .content {
     max-width: 1920px;
     margin: 0 auto;
 }
 main {top: -14px;position: relative;}
-
-
-
-
-
-
-
-
-
-
-.clock-img {
-    width: 215px;
-    height: 250px;
-    top: 186px;
-    position: absolute;
-    left: 210px;
-}
-
-.clock-img img{
-    width: 100%;
-}
-.clock-info {
-    position: absolute;
-    top: 48%;
-    left: 25%;
-}
-
-.clock-info p {
-    font-size: 68px;
-    width: 215px;
-    margin: 0 auto;
-    padding: 0 0px;
-    color: #04396C;
-    text-align: center;
-    line-height: 30px;
-    font-weight: 500;
-}
-
-.clock-info span {
-    font-size: 42px;
-    font-weight: 700;
-    color: #04396C;
-    padding-left: 4px;
-}
-
-
-
-
-
-
-
-
-
-
 .icon-cards {
     position: relative;
     width: 60vw;
@@ -79,7 +23,6 @@ main {top: -14px;position: relative;}
     perspective: 1000px;
     transform-origin: center;
 }
-
 .icon-cards__content {
     position: absolute;
     width: 100%;
@@ -93,8 +36,6 @@ main {top: -14px;position: relative;}
 .icon-cards__content .step-animation{
     animation: carousel 8s infinite steps(1) forwards;
 }
-
-
 .icon-cards__item{
     position: absolute;
     top: 0;
@@ -111,12 +52,10 @@ main {top: -14px;position: relative;}
 
 
 }
-
 .icon-cards__item:nth-child(1){
 
     transform: rotateY(0) translateZ(35vw);
 }
-
 .icon-cards__item:nth-child(2){
 
     transform: rotateY(120deg) translateZ(35vw);
@@ -139,9 +78,6 @@ main {top: -14px;position: relative;}
     justify-content: center;
     flex-direction: column;
 }
-
-
-
 .customer-reviews-box {
     border: 1px solid white;
     border-radius: 20px;
@@ -150,26 +86,21 @@ main {top: -14px;position: relative;}
     padding: 35px 35px 0;
     box-shadow: 2px 5px 12px 0 #0000004d;
 }
-
 .customer-reviews-box .person {
     display: flex;
     gap: 40px;
 
 }
-
 .customer-reviews-dot {
     text-align: center;
     padding-bottom: 5%;
 }
-
 .customer-reviews-box .person-img {
     width: 94px;
 }
-
 .customer-reviews-box .person img {
     width: 100%;
 }
-
 .customer-reviews-box .person .name {
     font-style: normal;
     font-weight: 700;
@@ -177,7 +108,6 @@ main {top: -14px;position: relative;}
     line-height: 20px;
     color: #04396C;
 }
-
 .customer-reviews-box .person .sub-name {
     font-style: normal;
     font-weight: 400;
@@ -185,7 +115,6 @@ main {top: -14px;position: relative;}
     line-height: 16px;
     color: #04396C;
 }
-
 .customer-reviews-box .box-desc {
     font-style: normal;
     font-weight: 300;
@@ -194,51 +123,22 @@ main {top: -14px;position: relative;}
     color: #04396C;
     margin-top: 36px;
 }
-
 .customer-reviews .slader {
     display: flex;
     justify-content: center;
     gap: 1%;
 }
-
 .customer-reviews .slader span {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1px 30px;
     border-radius: 30%;
 }
-
 .customer-reviews .slader span:nth-child(3) {
     background-color: #47B7E8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a {
     cursor: pointer;
 }
-
 .fs-60{
     font-size: 68px !important;
 }
@@ -256,35 +156,27 @@ a {
 .d-flex {
     display: flex;
 }
-
 .w-260 {
     width: 260px;
 }
-
 .w-210 {
     /* width: 210px; */
 }
-
 .w-220 {
     /* width: 220px; */
 }
-
 .w-218 {
     /* width: 220px; */
 }
-
 .w-185 {
     /* width: 185px; */
 }
-
 .w-153 {
     /* width: 153px; */
 }
-
 .w-133 {
     /* width: 133px; */
 }
-
 ::placeholder {
     color: #909ba5;
     font-size: 23px;
@@ -296,12 +188,10 @@ a {
 .banner-img-soc a img:hover {
     box-shadow: 0px 0px 15px 1px #03232d87;
 }
-
 .see-mobiclocks-section-btn:hover {
     background-color: #1e792b9c;
     box-shadow: 4px 2px 15px 2px #cccccc;
 }
-
 .forms-message-btn button:hover {
     background-color: #fff;
     color: #47b7e8;
@@ -324,45 +214,37 @@ header {
     height: 1078px;
     padding-top: 20px;
 }
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 0;
 }
-
 .container {
     width: 1374px;
     margin: 0 auto;
 }
-
 .menu ul.header-menu {
     display: flex;
     gap: 53px;
 }
-
 .menu ul li {
     list-style: none;
     position: relative;
 }
-
 .nav-link {
     font-size: 17px;
     color: #fff;
     line-height: 23px;
 }
-
 .menu ul li a {
     text-decoration: none;
     font-size: 17px;
     font-weight: 400;
 }
-
 .menu li.nav-item:hover .sub-menu {
     display: block;
 }
-
 .sub-menu {
     display: none;
     position: absolute;
@@ -371,18 +253,13 @@ header {
     width: 100%;
     z-index: 1;
 }
-
-
 .sub-menu a:hover {
     background-color: #eee;
     color: black;
 }
-
 .contact {
     color: #04396C;
 }
-
-
 .btn-trial {
     background-color: #47B7E8;
     color: #fff;
@@ -390,13 +267,11 @@ header {
     margin-right: 13px;
     border-radius: 10px;
 }
-
 .banner-section {
     display: flex;
     justify-content: space-between;
     margin-top: 124px;
 }
-
 .banner-info h1 {
     width: 750px;
     font-size: 68px;
@@ -404,7 +279,6 @@ header {
     line-height: 68px;
     font-weight: 700;
 }
-
 .banner-info h3 {
     margin-top: 18px;
     width: 540px;
@@ -413,15 +287,12 @@ header {
     line-height: 35px;
     font-weight: 400;
 }
-
-
 .banner-img img {
     height: 425px;
     border-radius: 12px;
     position: relative;
     right: -72px;
 }
-
 .banner-img-soc {
     display: flex;
     gap: 22px;
@@ -429,15 +300,12 @@ header {
     margin-bottom: 60px;
     justify-content: center;
 }
-
 .banner-img-soc img {
     width: 195px;
     height: 67px;
 }
-
 a {
 }
-
 .banner-info a {
     margin-top: 28px;
     padding: 18px 0;
@@ -448,25 +316,20 @@ a {
     display: inline-block;
     text-align: center;
 }
-
 .banner-info-btn {
     color: #47B7E8;
     text-decoration: none;
     font-weight: 700;
 
 }
-
 .banner-info {
     padding-top: 40px;
 }
-
 a.banner-info-btn:hover {
     color: #ffffff;
     box-shadow: 1px 2px 7px 1px #182e44a3;
     background-color: #63acd378;
 }
-
-
 .question-img {
     display: inline-block;
     position: fixed;
@@ -474,23 +337,18 @@ a.banner-info-btn:hover {
     z-index: 9999;
     right: 57px;
 }
-
 .shadow-img {
     box-shadow: 5px 10px 34px 2px #4b637b85;
 }
-
-
 .construction-industry-section {
     margin: 0 auto;
 }
-
 .construction-industry-title h2 {
     font-size: 68px;
     text-align: center;
     font-weight: 500;
     color: #04396C;
 }
-
 .construction-industry-text {
 
     font-size: 23px;
@@ -504,16 +362,12 @@ a.banner-info-btn:hover {
 .construction-industry-title {
     margin-bottom: 4px;
 }
-
-
 .section-left-title h3 {
     font-size: 60px;
     color: #04396C;
     font-weight: 500;
     margin-bottom: 70px;
 }
-
-
 .clock-section {
     border: 2px dashed #04396c7a;
     border-radius: 50%;
@@ -522,18 +376,15 @@ a.banner-info-btn:hover {
     margin: 80px auto;
     position: relative;
 }
-
 .box-item-1 {
     position: absolute;
     right: 229px;
     top: -81px;
 }
-
 .box-item-1 p {
     width: 175px;
     line-height: 4px;
 }
-
 .box-item-1 i {
     position: absolute;
     transform: rotate(-97deg);
@@ -542,25 +393,51 @@ a.banner-info-btn:hover {
     font-size: 24px;
     color: #04369c82;
 }
-
 .clock-box img {
     width: 100%;
     height: 100%;
 }
-
 .clock-box {
     background-color: white;
     font-size: 20px;
 }
-
-
+.clock-img {
+    width: 215px;
+    height: 250px;
+    top: 186px;
+    position: absolute;
+    left: 210px;
+}
+.clock-img img{
+    width: 100%;
+}
+.clock-info {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+.clock-info p {
+    font-size: 68px;
+    width: 215px;
+    margin: 0 auto;
+    padding: 0 0px;
+    color: #04396C;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+.clock-info span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #04396C;
+    padding-left: 4px;
+}
 .forms {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding-left: 6px;
 }
-
 .forms-box input {
     display: inline-block;
     width: 99%;
@@ -572,7 +449,6 @@ a.banner-info-btn:hover {
     color: #adada7;
     box-sizing: border-box;
 }
-
 .forms-message-box textarea {
     margin-top: 44px;
     margin-bottom: 23px;
@@ -586,14 +462,11 @@ a.banner-info-btn:hover {
     color: #adada7;
     box-sizing: border-box;
 }
-
-
 .forms-message-btn {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 112px;
 }
-
 .forms-message-btn button {
     background-color: #47B7E8;
     width: 156px;
@@ -603,13 +476,10 @@ a.banner-info-btn:hover {
     border: none;
     color: #fff;
 }
-
-
 footer {
     background-color: #47B7E8;
     padding-top: 156px;
 }
-
 .footer-info-text a {
     display: block;
     color: white;
@@ -618,37 +488,30 @@ footer {
     text-decoration: none;
     line-height: 25px;
 }
-
 .footer-info-text a i {
     padding-right: 9px;
     font-size: 18px;
 }
-
-
 .footer-menu-section {
     display: flex;
     gap: 86px;
     padding-bottom: 80px;
 }
-
 .box-item-title p {
     margin-bottom: 30px;
     color: white;
     font-size: 17px;
     font-weight: 700;
 }
-
 .box-item-text p a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-
 .copy-right {
     border-top: 1px solid #ffffff;
     padding: 3px 0;
 }
-
 .copy-right .container {
     gap: 335px;
     align-items: center;
@@ -656,31 +519,26 @@ footer {
     color: white;
     font-size: 18px;
 }
-
 .copy-right-social a {
     color: white;
     font-size: 37px;
     padding-left: 8px;
 }
-
 .clock-box {
     font-size: 20px;
     width: 158px;
     line-height: 20px;
     background-color: #fafdff;
 }
-
 .box-item-2 {
     position: absolute;
     top: 214px;
     background-color: #fafdff;
     left: -63px;
 }
-
 .box-item-2 p {
     text-align: center;
 }
-
 .box-item-2 i {
     bottom: -12px;
     position: absolute;
@@ -690,19 +548,16 @@ footer {
     color: #04396c87;
     right: 63px;
 }
-
 .box-item-3 {
     position: absolute;
     right: -63px;
     top: 213px;
 }
-
 .box-item-3 p {
     width: 134px;
     text-align: center;
 
 }
-
 .box-item-3 i {
     position: absolute;
     transform: rotate(-15deg);
@@ -712,19 +567,15 @@ footer {
     left: 76px;
     top: -7px;
 }
-
-
 .box-item-4 {
     right: 230px;
     position: absolute;
     bottom: -119px;
 }
-
 .box-item-4 p {
     text-align: center;
     width: 152px;
 }
-
 .box-item-4 i {
     position: absolute;
     transform: rotate(-280deg);
@@ -734,7 +585,6 @@ footer {
     font-weight: 600;
     color: #366da9a3;
 }
-
 .box-item-5 {
     right: 160px;
     top: 263px;
@@ -742,10 +592,6 @@ footer {
     width: 320px;
     position: absolute;
 }
-
-
-
-
 .faq-section-box.d-flex {
     border: 1px solid #47B7E8;
     justify-content: space-between;
@@ -762,39 +608,31 @@ footer {
 .faq-title.section-left-title {
     margin-bottom: 70px;
 }
-
 .faq-section-box-arrow i {
     font-size: 33px;
     color: #04396C;
     cursor: pointer;
 }
-
 .faq-section-box-info h4 {
     color: #04396C;
     font-size: 20px;
     font-weight: 500;
 }
-
 .faq-body p {
     color: #04396C;
 }
-
 .faq-body {
     display: none;
     margin-top: 10px;
 }
-
 .faq-section {
     margin-bottom: 80px;
 }
-
-
 .section-center-title {
     font-weight: 500;
     font-size: 55px;
     color: #04396C;
 }
-
 .mobiclocks-in-action-body {
     text-align: center;
     font-weight: 300;
@@ -803,12 +641,10 @@ footer {
     position: relative;
     color: #04396C;
 }
-
 .mobiclocks-in-action-btn {
 
     margin-top: 15px;
 }
-
 .mobiclocks-in-action-section {
     text-align: center;
     margin-bottom: 124px;
@@ -818,7 +654,6 @@ footer {
     background-position: 254px 191px;
     background-repeat: no-repeat;
 }
-
 .mobiclocks-in-action-btn a {
     background: #60D58D;
     padding: 18px 45px;
@@ -828,7 +663,6 @@ footer {
     border-radius: 7px;
     color: #fff;
 }
-
 img.img55 {
     width: 75px;
     height: 60px;
@@ -836,8 +670,6 @@ img.img55 {
     left: 187px;
     bottom: 8px;
 }
-
-
 .many-to-save-tabs {
     display: flex;
     justify-content: space-between;
@@ -847,11 +679,9 @@ img.img55 {
     margin-bottom: 102px;
     padding-bottom: 20px;
 }
-
 .many-to-save-section-2 {
     margin: 140px 0;
 }
-
 .many-to-save-tabs-item a {
     font-weight: 300;
     width: 100%;
@@ -859,17 +689,14 @@ img.img55 {
     cursor: pointer;
     display: inline-block;
 }
-
 .many-to-save-body-info h3 {
     color: #04396C;
     line-height: 46px;
     font-weight: 300;
 }
-
 .many-to-save-body-info {
     flex: 1;
 }
-
 .many-to-save-body-info p {
     margin-top: 15px;
     color: #04396C;
@@ -877,28 +704,21 @@ img.img55 {
     font-weight: 300;
     display: inline-block;
 }
-
 .many-to-save-body-img {display: none;}
-
 .many-to-save-body {
     display: none;
 }
-
 .many-to-save-body.active {
     display: flex;
 
 
 }
-
-
 .many-to-save-img img {
     width: 100%;
 }
-
 .many-to-save-tabs-item {
     position: relative;
 }
-
 .many-to-save-tabs-item.active:after {
     content: "";
     background: #60D58D;
@@ -911,18 +731,14 @@ img.img55 {
     left: 0;
     border-radius: 6px;
 }
-
 .many-to-save-body-img img {
     width: 100%;
 }
-
-
 .many-to-save-title p {
     font-weight: 500;
     margin-bottom: 58px;
     color: #04396C;
 }
-
 .many-to-save-section {
     margin: 235px 0 0;
     background: url("images/many-to-save-body-img.png");
@@ -931,8 +747,6 @@ img.img55 {
     padding: 0 0 305px;
     background-size: 77%;
 }
-
-
 .customer-reviews-tabs {
     display: flex;
     gap: 38px;
@@ -943,7 +757,6 @@ img.img55 {
     margin-bottom: 80px;
     padding-bottom: 16px;
 }
-
 .customer-reviews-section-2 {
     position: relative;
     transform: translateY(200px);
@@ -952,12 +765,10 @@ img.img55 {
     padding-top: 152px;
     transition: 3s all ease;
 }
-
 .customer-reviews-section-2.active {
     transform: translateY(0);
     opacity: 1;
 }
-
 .customer-reviews-tabs-item a {
     font-size: 23px;
     font-weight: 300;
@@ -965,18 +776,15 @@ img.img55 {
     color: #04396C;
     display: inline-block;
 }
-
 .customer-reviews-body-info h3 {
     color: #04396C;
     line-height: 46px;
     padding-left: 79px;
     padding-top: 10px;
 }
-
 .customer-reviews-body-info {
     flex: 1;
 }
-
 .customer-reviews-body-info p {
     font-size: 23px;
     margin-top: 24px;
@@ -985,33 +793,26 @@ img.img55 {
     display: inline-block;
     color: #04396C;
 }
-
 .customer-reviews-body-img {
     flex: 1;
     border: 6px solid #47B7EB;
     border-radius: 20px;
     overflow: hidden;
 }
-
 .customer-reviews-body {
     display: none;
 }
-
 .customer-reviews-body.active {
     display: flex;
     gap: 23px;
 }
-
-
 .customer-reviews-body-img img {
     width: 100%;
 }
-
 .customer-reviews-tabs-item {
     position: relative;
     flex: 1;
 }
-
 .customer-reviews-tabs-item.active:after {
     content: "";
     background: #47B7E8;
@@ -1024,8 +825,6 @@ img.img55 {
     left: 0;
     border-radius: 6px;
 }
-
-
 .multiple-unique-features-tabs {
     display: flex;
     gap: 53px;
@@ -1035,11 +834,9 @@ img.img55 {
     border-bottom: 8px solid rgba(0, 0, 0, 0.07);
     padding-bottom: 14px;
 }
-
 .multiple-unique-features-section-2 {
     margin: 140px 0;
 }
-
 .multiple-unique-features-tabs-item a {
     font-size: 23px;
     font-weight: 300;
@@ -1047,13 +844,11 @@ img.img55 {
     color: #04396C;
     display: inline-block;
 }
-
 .multiple-unique-features-body-info h3 {
     font-size: 42px;
     color: #04396C;
     line-height: 46px;
 }
-
 .geo_fence {
     flex: 1;
     background-size: 61%;
@@ -1061,7 +856,6 @@ img.img55 {
     background-position: 78% 30%;
     background-repeat: no-repeat;
 }
-
 .face-recognition-description {
     font-size: 23px;
     color: #04396C;
@@ -1070,44 +864,35 @@ img.img55 {
     box-sizing: border-box;
     padding-right: 6px;
 }
-
 .face_recognition {
     flex: 1;
     background-image: url("images/face_recognition_bg.png");
     background-position: right 80px;
     background-repeat: no-repeat;
 }
-
 .face_recognition p {
     margin-top: 24px;
     color: #04396C;
 }
-
 .multiple-unique-features-body-img {
     flex: 1.2;
     border-radius: 20px;
     overflow: hidden;
 }
-
 .multiple-unique-features-body {
     display: none;
 }
-
 .multiple-unique-features-body.active {
     display: flex;
     padding-bottom: 222px;
 }
-
-
 .multiple-unique-features-img img {
     width: 100%;
 }
-
 .multiple-unique-features-tabs-item {
     position: relative;
     flex: 1;
 }
-
 .multiple-unique-features-tabs-item.active:after {
     content: "";
     background: #60D58D;
@@ -1120,20 +905,16 @@ img.img55 {
     left: 0;
     border-radius: 6px;
 }
-
 .multiple-unique-features-body-img img {
     width: 100%;
 }
-
 .container {
 }
-
 .multiple-unique-features-title p {
     font-weight: 500;
     color: #04396C;
     margin-bottom: 45px;
 }
-
 .multiple-unique-features-section {
     margin: 160px 0;
     position: relative;
@@ -1141,51 +922,42 @@ img.img55 {
     opacity: 0;
     transition: 3s all ease;
 }
-
 .multiple-unique-features-section.active {
     transform: translateX(0);
     opacity: 1;
 }
-
 .multiple-unique-features-body-img {
     display: none;
 }
 .banner-play-img {
     position: relative;
 }
-
 .banner-play-img img {
     position: absolute;
     top: 138px;
     right: -159px;
     z-index: 99;
 }
-
 .construction-industry-section-info {
     margin-bottom: 182px;
 }
-
 .customer-reviews-section-1-title p {
     font-size: 60px;
     color: #04396c;
     font-weight: 500;
     text-align: center;
 }
-
 .customer-reviews-section-1-title {
     margin-bottom: 30px;
     position: relative;
     top: -25px;
 }
-
 .customer-reviews-item {
     border-radius: 35px;
     padding: 35px;
 }
-
 .customer-reviews-section-1-tabs {
 }
-
 .customer-reviews-item-title {
     display: flex;
     gap: 36px;
@@ -1193,54 +965,44 @@ img.img55 {
     padding-top: 3px;
     padding-left: 11px;
 }
-
 .customer-reviews-section-1-tabs {
     display: flex;
     gap: 0px;
     justify-content: center;
 }
-
 .customer-reviews-item-title-info p {
     font-size: 22px;
     font-weight: 600;
 }
-
 .customer-reviews-item-title-info {
     font-size: 21px;
     color: #04396C;
     width: 65%;
     padding-top: 17px;
 }
-
 .customer-reviews-item-title-img img {
     width: 94px;
     height: 94px;
 }
-
-
 .customer-reviews-item-body {
     width: 100%;
     margin-top: 25px;
     color: #04396C;
 }
-
 .customer-reviews-btn {
     padding: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
 .customer-reviews-btn p {
     border: 1px solid #47b7e8;
 }
-
 .customer-reviews-btn p {
     padding: 1px 20px;
     border-radius: 50px;
     background-color: #47B7E8;
 }
-
 i.fa.fa-toggle-on {
     font-size: 48px;
     color: #9ede9ca6;
@@ -1249,20 +1011,15 @@ i.fa.fa-toggle-on {
     transform: rotate(-15deg);
     position: absolute;
 }
-
-
 .mobiclocks-in-action-body img {
     position: absolute;
     top: -18px;
     right: 96px;
     width: 39px;
 }
-
-
 .mobiclocks-in-action-body span {
     display: block;
 }
-
 .our-story-section {
     justify-content: space-between;
     display: flex;
@@ -1271,7 +1028,6 @@ i.fa.fa-toggle-on {
     margin-bottom: 378px;
     margin-top: 257px;
 }
-
 .our-story-img img.our-img {
     width: 78%;
     padding: 20px;
@@ -1282,11 +1038,9 @@ i.fa.fa-toggle-on {
     margin-left: 172px;
     box-sizing: border-box;
 }
-
 .our-story-body {
     flex: 1;
 }
-
 .our-story-img {
     position: relative;
     border: 1px solid #ccc;
@@ -1296,31 +1050,25 @@ i.fa.fa-toggle-on {
     width: 46%;
     border-radius: 20px;
 }
-
 .our-story-body-title p {
     color: #04396C;
     line-height: 67px;
 }
-
 .our-story-body-title {
     margin-bottom: 20px;
     margin-top: 14px;
     width: 500px;
 }
-
 .our-story-body-info {
     width: 660px;
     margin-top: 19px;
 }
-
 .our-story-body-info p {
     color: #04369C;
     margin: 23px 0;
     font-weight: 300;
     line-height: 25px;
 }
-
-
 img.bg {
     position: absolute;
     right: -177px;
@@ -1328,24 +1076,20 @@ img.bg {
     z-index: -1;
     width: 500px;
 }
-
 button.owl-dot {
     padding: 2px 20px !important;
     border-radius: 50px;
     background-color: #ccc;
     margin: 0 10px;
 }
-
 .owl-carousel button.owl-dot {
     padding: 3px 34px !important;
     border-radius: 50px;
     background: #ccc !important;
 }
-
 button.owl-dot.active {
     background: #47B7E8 !important;
 }
-
 .owl-dots {
     text-align: center;
     margin-top: 30px;
@@ -1353,17 +1097,13 @@ button.owl-dot.active {
     gap: 20px;
     justify-content: center;
 }
-
 .owl-carousel .owl-stage-outer {
     padding: 8px 5px;
 }
-
 .owl-item {
     box-shadow: 0 0 10px 0 #a9a2a278;
     border-radius: 35px;
 }
-
-
 .see-mobiclocks-section {
     position: relative;
     background-image: url("images/see_action_bg.png");
@@ -1373,18 +1113,15 @@ button.owl-dot.active {
     padding: 155px 0;
     z-index: 999944444;
 }
-
 .see-mobiclocks-section-img {
     position: relative;
 
 
 }
-
 .see-mobiclocks-section-info {
     position: relative;
     top: 65px;
 }
-
 .see-mobiclocks-section-info h3 {
     text-align: center;
     margin-bottom: 14px;
@@ -1392,19 +1129,15 @@ button.owl-dot.active {
     font-weight: 500;
     color: #04396C;
 }
-
 p {
 }
-
 .see-mobiclocks-section-info p {
     color: #04396C;
     text-align: center;
 }
-
 .see-mobiclocks-section-btn button {
     background-color: #60D58D;
 }
-
 .see-mobiclocks-section-btn {
     text-align: center;
     background-color: #60D58D;
@@ -1414,15 +1147,12 @@ p {
     padding: 18px 0;
     margin-top: 22px;
 }
-
 .see-mobiclocks-section-btn a {
     text-decoration: none;
     font-weight: 700;
     color: #fff;
     font-size: 18px;
 }
-
-
 .start-saving-with-mobiclock-info h3 {
     width: 506px;
     font-weight: 500;
@@ -1430,7 +1160,6 @@ p {
     color: #04396C;
     margin-bottom: 16px;
 }
-
 .start-saving-with-mobiclock-info p {
     font-weight: 300;
     line-height: 35px;
@@ -1439,9 +1168,6 @@ p {
     display: inline-block;
     width: 570px;
 }
-
-
-
 .start-saving-with-mobiclock-btn a {
     padding: 17px;
     text-decoration: none;
@@ -1454,8 +1180,6 @@ p {
     border-radius: 10px;
     display: inline-block;
 }
-
-
 .start-saving-with-mobiclock-section {
     /* display: flex; */
     justify-content: space-between;
@@ -1467,34 +1191,25 @@ p {
     margin-top: 122px;
     z-index: -1111;
 }
-
 .start-saving-with-mobiclock-section-left {
     padding-top: 60px;
 }
-
-
-
-
 .start-saving-with-mobiclock-section-right img {
     width: 100%;
 }
-
 .box-item-title {
     padding-top: 11px;
     line-height: 32px;
 }
-
 .box-item-text p {
     line-height: 32px;
     font-weight: 400;
     font-size: 23px;
 }
-
 .footer-menu-logo {
     margin-bottom: -2px;
     margin-left: 9px;
 }
-
 .geo-fence-description {
     color: #04396C;
     width: 425px;
@@ -1502,14 +1217,12 @@ p {
     box-sizing: border-box;
     padding-right: 6px;
 }
-
 .geo-fence-description p {
     margin-top: 21px;
     color: #04396C;
     padding-bottom: 10px;
     line-height: 32px;
 }
-
 .flag-alert-system-description {
     font-size: 23px;
     color: #04396C;
@@ -1518,24 +1231,20 @@ p {
     box-sizing: border-box;
     padding-right: 6px;
 }
-
 .flag-alert-system-description p {
     font-size: 23px;
     margin-top: 24px;
     color: #04396C;
 }
-
 .flag-alert-system {
     background-image: url("images/flag-alert-system-bg.png");
     background-repeat: no-repeat;
     background-position: 77% 140px;
     background-size: 30%;
 }
-
 .multiple-unique-features-body-info {
     margin-top: 92px;
 }
-
 .practical-features-section {
     background-image: url("images/header-bg-noth.png"), url('images/header-bg-practical.png');
     background-position: 93% 123px, left top;
@@ -1546,40 +1255,33 @@ p {
     display: inline-block;
     width: 100%;
 }
-
-
 .practical-features-title h3 {
     font-weight: 700;
     line-height: 67px;
     color: #fff;
     margin-bottom: 17px;
 }
-
 .practical-features-description {
     color: #fff;
     line-height: 35.2px;
     margin-bottom: 30px;
     font-weight: 400;
 }
-
 .practical-features-info {
     width: 600px;
     display: inline-block;
     padding: 332px 0px 150px;
 }
-
 .practical-features-btn:hover {
     background-color: #eef5f8;
     box-shadow: 0px 14px 12px 1px #00000063;
     transition: 7ms;
 }
-
 .why-mobiclocks-title h3 {
     color: #04396C;
     font-weight: 500;
     text-align: center;
 }
-
 .why-mobiclocks-description {
     font-size: 23px;
     width: 915px;
@@ -1588,27 +1290,6 @@ p {
     margin: 5px auto;
     text-align: center;
 }
-
-.box-1-hover:before {
-    transform: rotate(360deg);
-    transition: 3s;
-}
-
-.box-2-hover:before {
-    transform: rotate(230deg);
-    transition: 3s;
-}
-
-.box-3-hover:before {
-    transform: rotate(45deg);
-    transition: 3s;
-}
-
-.box-4-hover:before {
-    transform: rotate(140deg);
-    transition: 3s;
-}
-
 .practical-features-btn a {
     font-size: 18px;
     color: #47B7E8;
@@ -1616,7 +1297,6 @@ p {
     text-decoration: none;
     display: inline-block;
 }
-
 .practical-features-btn {
     padding: 18px 14px;
     background-color: #fff;
@@ -1629,45 +1309,20 @@ p {
     display: inline-block;
     text-align: center;
 }
-
 .why-mobiclocks-section {
     position: relative;
     top: 68px;
 }
-
-/*.clock-section:before {*/
-/*    content: '';*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    display: inline-block;*/
-/*    background-image: url("images/logo.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center 172px;*/
-/*}*/
-
-
-
 .contact-us {
     margin-top: 155px;
 }
-
 .contact-us-title.section-left-title {
     padding-left: 5px;
 }
-
 .learn-more {
     display: none;
 }
-
-
-
-
-
-
 /*///////////////////////////////////////////////*/
-
-
-
 
 .wrapper{
     position: fixed;
@@ -1766,8 +1421,6 @@ input[type="checkbox"]{
     display: none;
 }
 
-
-
 @keyframes rotate {
     0%{
         filter: hue-rotate(0deg);
@@ -1776,1337 +1429,12 @@ input[type="checkbox"]{
         filter: hue-rotate(360deg);
     }
 }
-
 .customer-reviews-section-1 {
     padding: 0 94px;
     position: relative;
     top: -72px;
 }
-
 .open-faq.faq-section-box.d-flex {
     height: 120px;
 }
 /*///////////////////////////////////////*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1800px) {
-    .container {
-        width: 1200px;
-    }
-    .fs-32 {
-        font-size: 26px !important;
-    }
-    .fs-60 {
-        font-size: 54px !important;
-    }
-    ::placeholder {
-        color: #909ba5;
-        font-size: 18px;
-
-    }
-    .header-menu  li a{
-        color: #04369C;
-        font-size: 15px;
-    }
-    .menu ul.header-menu {
-        display: flex;
-        gap: 28px;
-    }
-    a.nav-link.btn-trial {
-        background-color: #ffffffbf;
-        box-shadow: 9px 8px 8px 2px #366da9;
-    }
-
-    .banner-img img {
-        border-radius: 12px;
-        position: relative;
-        right: 103px;
-    }
-    .banner-play-img img {
-        position: absolute;
-        top: 130px;
-        left: 148px;
-        z-index: 99;
-    }
-    .banner-info h1 {
-        width: 707px;
-        font-size: 46px;
-        color: white;
-        line-height: 62px;
-        font-weight: 600;
-    }
-    .banner-img-soc a img {
-        width: 150px;
-        height: 65px;
-    }
-    .multiple-unique-features-tabs-item.active:after {
-        content: "";
-        background: #60D58D;
-        height: 8px;
-        width: 100%;
-        display: inline-block;
-        position: absolute;
-        z-index: 99;
-        top: 107px;
-        left: 0;
-        border-radius: 6px;
-    }
-    .face_recognition p {
-        font-size: 19px;
-        margin-top: 24px;
-        color: #04396C;
-    }
-    .face_recognition {
-        flex: 1;
-        background-image: url(images/face_recognition_bg.png);
-        background-position: right 35px;
-        background-repeat: no-repeat;
-        background-size: 45%;
-    }
-    .many-to-save-section {
-        margin: 160px 0 0;
-        background: url(images/many-to-save-body-img.png);
-        background-repeat: no-repeat;
-        background-position: 84% 127px;
-        padding: 0 0 238px;
-        background-size: 70%;
-    }
-    .multiple-unique-features-tabs-item a {
-        font-size: 20px;
-        font-weight: 300;
-        width: 100%;
-        color: #04396C;
-        display: inline-block;
-    }
-    .multiple-unique-features-title p {
-        font-size: 68px;
-        font-weight: 500;
-        color: #04396C;
-        margin-bottom: 21px;
-    }
-    .customer-reviews-tabs {
-        display: flex;
-        gap: 25px;
-        justify-content: center;
-        padding: 10px 0;
-        border-bottom: 8px solid rgba(0, 0, 0, 0.07);
-        text-align: center;
-        margin-bottom: 80px;
-        padding-bottom: 40px;
-    }
-    .customer-reviews-tabs-item a {
-        font-size: 20px;
-        font-weight: 300;
-        width: 100%;
-        color: #04396C;
-        display: inline-block;
-    }
-    .customer-reviews-tabs-item.active:after {
-
-        top: 133px;
-
-    }
-    .mobiclocks-in-action-section {
-
-        background-position: 253px 232px;
-
-    }
-    .footer-menu-section {
-        display: flex;
-        gap: 50px;
-        padding-bottom: 152px;
-    }
-    .footer-info-text a {
-        display: block;
-        color: white;
-        font-weight: 400;
-        padding-top: 8px;
-        text-decoration: none;
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .geo_fence {
-        background-position: 84% 30%;
-
-    }
-    .practical-features-description {
-
-        width: 70%;
-    }
-    .copy-right .container {
-        gap: 298px;
-    }
-
-}
-
-
-
-@media (max-width: 1600px) {
-    .container {
-        width: 1333px;
-    }
-
-    .banner-info h1 {
-        font-size: 45px;
-        width: 635px;
-    }
-    .banner-info h3 {
-        font-size: 25px;
-    }
-    .banner-img img {
-        height: 410px;
-        width: 470px;
-    }
-    .banner-play-img img {
-        position: absolute;
-        top: 130px;
-        left: -105px;
-        z-index: 99;
-    }
-    .banner-section {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 124px;
-    }
-    .banner-img-soc a img {
-        width: 115px;
-        height: 50px;
-        box-shadow: -5px 3px 9px 1px #fff;
-    }
-    .construction-industry-title h2 {
-        text-align: center;
-        font-weight: 500;
-        color: #04396C;
-    }
-    .construction-industry-text {
-        font-size: 21px;
-        font-weight: 300;
-        text-align: center;
-        line-height: 30px;
-        width: 815px;
-        margin: 0 auto;
-        color: #04396C;
-    }
-    .customer-reviews-tabs-item.active:after {
-        content: "";
-        top: 96px;
-    }
-    .multiple-unique-features-tabs {
-        display: flex;
-        gap: 33px;
-        justify-content: center;
-        padding: 10px 0;
-        border-bottom: 8px solid rgba(0, 0, 0, 0.07);
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .multiple-unique-features-tabs-item.active:after {
-        content: "";
-        background: #60D58D;
-        height: 8px;
-        width: 100%;
-        display: inline-block;
-        position: absolute;
-        z-index: 99;
-        top: 76px;
-        left: 0;
-        border-radius: 6px;
-    }
-    .many-to-save-tabs-item.active:after {
-        content: "";
-
-        top: 48px;
-
-    }
-    .practical-features-info {
-        padding: 229px 0px 150px;
-    }
-    .our-story-body-info {
-        width: 565px;
-    }
-    .footer-menu-section {
-
-        margin-left: 50px;
-    }
-    .copy-right .container {
-
-        justify-content: space-evenly;
-
-    }
-    .fs-60 {
-        font-size: 50px !important;
-    }
-    .fs-42{
-        font-size: 38px !important;
-    }
-    .fs-32{
-        font-size: 23px !important;
-    }
-    .fs-23{
-        font-size: 20px !important;
-    }
-    .our-story-img {
-        position: relative;
-        width: 54%;
-        border-radius: 20px;
-    }
-    .our-story-section {
-
-        margin-top: 140px;
-    }
-
-
-
-}
-
-
-
-
-
-@media (max-width: 1380px) {
-    .container {
-        width: 1100px;
-    }
-    header {
-        background-image: url(images/header-bg.png);
-        background-size: 1340px;
-        background-repeat: no-repeat;
-    }
-    .menu ul.header-menu {
-        display: flex;
-        gap: 17px;
-    }
-    .banner-play-img img {
-        position: absolute;
-        top: 130px;
-        left: -35px;
-        z-index: 99;
-    }
-    .banner-img img {
-        height: 410px;
-        width: 470px;
-    }
-    .banner-img img {
-        border-radius: 12px;
-        position: relative;
-        right: -27px;
-    }
-    .practical-features-info {
-        padding: 160px 0px 150px;
-    }
-    .customer-reviews-tabs-item.active:after {
-        top: 123px;
-    }
-
-}
-
-
-
-@media (max-width: 1200px) {
-    .container {
-        width: 960px;
-    }
-    header {
-
-        background-size: 1329px;
-
-    }
-    .our-story-body-info {
-        width: 90%;
-    }
-    .banner-section {
-        display: inherit;
-    }
-
-    .banner-section {
-        display: initial;
-        justify-content: space-between;
-        margin-top: 32px;
-    }
-    .banner-img img {
-        width: 95%;
-    }
-    .banner-img-soc {
-
-        margin-top: 25px;
-
-    }
-    .banner-info h3 {
-        width: 100%;
-
-    }
-    .banner-info h1 {
-        width: 100%;
-    }
-    .banner-info {
-        padding-top: 0;
-        margin-bottom: 55px;
-        text-align: center;
-    }
-    .banner-img {
-        width: 100%;
-        text-align: center;
-    }
-    .banner-play-img img {
-
-        left: 422px;
-        z-index: 99;
-    }
-
-    .clock-info {
-        position: absolute;
-        top: 48%;
-        left: 25%;
-    }
-
-
-    .menu-btn {
-        position: absolute;
-        z-index: 9999999;
-        right: 20px;
-        /* left: 20px; */
-        top: 20px;
-        position: fixed;
-        height: 50px;
-        display: block;
-        width: 50px;
-        text-align: center;
-        line-height: 50px;
-        border-radius: 50%;
-        font-size: 20px;
-        color: #fff;
-        cursor: pointer;
-        /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
-        /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-        /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-        background: #fafdff;
-        transition: all 0.3s ease-in-out;
-    }
-    .wrapper {
-        z-index: 999999;
-    }
-    .wrapper {
-        position: fixed;
-        top: 0;
-        left: 50%;
-        display: block;
-        height: 100%;
-        width: 50%;
-        /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
-        /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-        /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
-        /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-        background: #04396c96;
-        clip-path: circle(25px at calc(100% - 45px) 45px);
-        transition: all 0.3s ease-in-out;
-    }
-
-    .menu ul.header-menu {
-        display: none;
-        gap: 17px;
-    }
-    .many-to-save-section {
-
-        background-position: 116% 177px;
-
-    }
-    .many-to-save-tabs-item.active:after {
-        content: "";
-        top: 43px;
-    }
-    .see-mobiclocks-section-info {
-
-        top: -52px;
-
-    }
-
-
-    .see-mobiclocks-section {
-        background-size: 73%;
-        top: -43px;
-    }
-    .see-mobiclocks-section {
-        background-position: 48% 23px;
-
-    }
-    .start-saving-with-mobiclock-section-left {
-        padding-top: 0px;
-    }
-    .start-saving-with-mobiclock-section {
-
-        margin-top: 0px;
-
-    }
-    .start-saving-with-mobiclock-info p {
-
-        width: 42%;
-    }
-    .our-story-section {
-        margin-top: 70px;
-    }
-    .our-story-section {
-        height: 290px;
-        margin-bottom: 378px;
-        margin-top: 63px;
-    }
-    .our-story-body-title p {
-        color: #04396C;
-        line-height: 45px;
-    }
-    .our-story-body-title {
-
-        margin-top: 0;
-
-    }
-    .our-story-body-info p {
-        margin: 7px 0;
-    }
-
-    img.bg {
-        position: absolute;
-        right: -122px;
-        bottom: -185px;
-        transform: rotate(30deg);
-        z-index: -1;
-        width: 79%;
-    }
-
-    .our-story-img img.our-img {
-        margin-left: 100px;
-        margin-top: 0;
-    }
-    .multiple-unique-features-tabs-item.active:after {
-        top: 67px;
-    }
-    .mobiclocks-in-action-section {
-
-        padding-top: 245px;
-
-    }
-    .face_recognition p {
-
-        width: 555px;
-
-    }
-    .face_recognition {
-        background-position: right 152px;
-        background-size: 46%;
-    }
-    .geo_fence {
-        background-size: 58%;
-        background-position: 92% 24%;
-
-    }
-    .practical-features-info {
-        width: 60%;
-        display: inline-block;
-        padding: 115px 0 54px;
-    }
-    .practical-features-section {
-
-        background-position: 110% 33px, left top;
-
-        background-size: 58%, 57%;
-
-        bottom: 355px;
-
-    }
-    .practical-features-description {
-        width: 72%;
-
-    }
-    .practical-features-btn a {
-        font-size: 16px;
-    }
-    .practical-features-btn {
-        width: 170px;
-
-    }
-    .owl-carousel .owl-stage-outer {
-        padding: 8px 5px;
-        height: 328px;
-    }
-    .customer-reviews-tabs-item.active:after {
-        content: "";
-        top: 109px;
-    }
-    .why-mobiclocks-description {
-        font-size: 23px;
-        width: 96%;
-        line-height: 30px;
-        font-weight: 300;
-        margin: 5px auto;
-        text-align: center;
-    }
-    .mobiclocks-in-action-section {
-        background-position: 253px 211px;
-    }
-    .faq-section-box.d-flex {
-        width: 88%;
-
-    }
-    .footer-menu-section {
-        display: grid;
-        /* gap: 50px; */
-        grid-template-columns: repeat(3,auto);
-        padding-bottom: 152px;
-    }
-    i.fa.fa-bars {
-        color: #47b7e8;
-    }
-
-    .fs-60 {
-        font-size: 38px !important;
-    }
-    .fs-23 {
-        font-size: 17px !important;
-    }
-    .fs-32 {
-        font-size: 20px !important;
-    }
-    .copy-right .container {
-        gap: 156px;
-    }
-    .copy-right-social a {
-        font-size: 30px;
-    }
-
-    .customer-reviews-body-info h3 {
-        padding-left: 0;
-    }
-    .customer-reviews-body-info p {
-        padding-left: 0;
-    }
-    .practical-features-description {
-        line-height: 22px;
-
-    }
-    .practical-features-title h3 {
-        line-height: 54px;
-        width: 59%;
-    }
-
-
-
-
-}
-
-@media (max-width: 992px) {
-    .container {
-        width: 720px;
-    }
-
-
-    .banner-play-img img {
-        left: 320px;
-    }
-
-    .banner-info h1 {
-        line-height: 54px;
-
-    }
-
-    .clock-section {
-        width: 550px;
-        height: 540px;
-    }
-
-    .clock-box img {
-        width: 89%;
-        height: 80%;
-    }
-
-
-    .box-item-1 {
-        right: 187px;
-        top: -81px;
-    }
-
-    .box-item-4 {
-        right: 190px;
-        position: absolute;
-        bottom: -119px;
-    }
-
-    .box-item-3 {
-        position: absolute;
-        right: -72px;
-        top: 213px;
-    }
-
-    .box-item-2 {
-        position: absolute;
-        top: 213px;
-        background-color: #fafdff;
-        left: -65px;
-    }
-
-    .box-item-2 i {
-        bottom: -12px;
-        right: 50px;
-    }
-
-    .box-item-4 i {
-        top: 49px;
-        left: 149px;
-    }
-    .box-item-5 {
-        right: 109px;
-        top: 263px;
-
-    }
-    .clock-img {
-        top: 170px;
-        left: 165px;
-    }
-
-    .many-to-save-body-info p {
-        width: 46%;
-    }
-
-    .see-mobiclocks-section {
-        top: -146px;
-    }
-
-    .see-mobiclocks-section {
-        padding: 70px 0;
-    }
-
-    .see-mobiclocks-section-info {
-        top: 13px;
-    }
-
-    .see-mobiclocks-section-info p {
-        color: #04396C;
-        text-align: center;
-        width: 74%;
-        margin: 0 auto;
-    }
-
-
-    .start-saving-with-mobiclock-section {
-        padding: 0 0 289px 0px;
-        background-size: 63%;
-        background-position: 100% 27%;
-    }
-
-    .start-saving-with-mobiclock-info h3 {
-        margin-bottom: 0;
-    }
-
-    .our-story-section {
-        height: 210px;
-    }
-
-    .our-story-img img.our-img {
-        margin-left: 77px;
-        margin-top: 0;
-    }
-
-    .our-story-section {
-
-        margin-top: 0;
-    }
-
-    .our-story-section {
-        flex-direction: column-reverse;
-        width: 75%;
-        margin: 315px auto;
-    }
-
-    .our-story-img {
-        width: 70%;
-        display: block;
-
-    }
-
-    .multiple-unique-features-section {
-        margin-top: 0;
-        margin-bottom: 160px;
-    }
-
-    .face_recognition p {
-        width: 71%;
-    }
-
-    .face_recognition {
-        background-position: right 219px;
-    }
-
-    .multiple-unique-features-tabs-item.active:after {
-        top: 89px;
-    }
-
-    .geo_fence {
-        background-size: 60%;
-        background-position: 110% 28%;
-    }
-
-    .practical-features-title h3 {
-        line-height: 40px;
-        width: 100%;
-    }
-
-    .practical-features-description {
-        margin-bottom: 18px;
-    }
-
-    .practical-features-btn {
-        padding: 12px 7px;
-    }
-
-    .customer-reviews-tabs-item.active:after {
-        top: 132px;
-    }
-
-    .customer-reviews-body.active {
-        display: initial;
-
-    }
-
-    .customer-reviews-body-info p {
-        width: 100%;
-    }
-
-    .customer-reviews-body-info h3 {
-        margin-top: 31px;
-    }
-
-    .mobiclocks-in-action-section {
-        margin-bottom: 103px;
-        background-image: url(images/see_mobiclock-bg-2.png);
-        padding-top: 166px;
-        background-size: 17%;
-        background-position: 74px 98px;
-    }
-
-    footer {
-        padding-top: 119px;
-    }
-
-    .footer-menu-section {
-
-        padding-bottom: 84px;
-    }
-
-    .copy-right .container {
-        gap: 12px;
-        flex-direction: column-reverse;
-    }
-
-    .copy-right-text {
-        order: 2;
-    }
-
-    .copy-right-year {
-        order: 1;
-    }
-
-    .copy-right-social {
-        order: 2;
-    }
-
-    .construction-industry-text {
-        width: 700px;
-
-    }
-
-
-    .owl-carousel .owl-stage-outer {
-        padding: 8px 5px;
-        display: none;
-    }
-    .carusel-body{
-        display: flex;
-        position: relative;
-        top: -86px;
-    }
-    .owl-dots {
-        display: none;
-    }
-
-
-
-
-
-
-
-}
-
-
-
-
-@media (max-width: 768px) {
-    .container {
-        width: 540px;
-    }
-    .start-saving-with-mobiclock-btn {
-        display: flex;
-        justify-content: center;
-    }
-    header {
-        background-size: 970px;
-    }
-    .banner-info {
-        padding-top: 0;
-        margin-bottom: 77%;
-        text-align: center;
-    }
-    .banner-img img {
-        right: 31px;
-    }
-    .banner-img-soc a img {
-        width: 120px;
-        height: 47px;
-
-    }
-    .banner-play-img img {
-        left: 177px;
-    }
-    .clock-box img {
-        width: 60%;
-    }
-    .clock-section {
-        width: 400px;
-        height: 400px;
-    }
-    /*.clock-section:before {*/
-    /*    display: inline-block;*/
-    /*    background-image: url(images/logo.png);*/
-    /*    background-size: 34%;*/
-    /*    background-position: center center;*/
-    /*}*/
-    .clock-box img {
-        width: 100%;
-    }
-    .clock-img {
-        width: 140px;
-        height: 160px;
-        top: 123px;
-        position: absolute;
-        left: 129px;
-    }
-    .clock-info p {
-        font-size: 40px;
-        width: 215px;
-        margin: 0 auto;
-        padding: 0 0px;
-        color: #04396C;
-        text-align: center;
-        line-height: 30px;
-        font-weight: 500;
-    }
-    .clock-info span {
-        font-size: 24px;
-        font-weight: 500;
-        color: #04396C;
-        padding-left: 4px;
-        display: block;
-        text-align: center;
-    }
-    .clock-info {
-        position: absolute;
-        top: 46%;
-        left: 23%;
-    }
-
-
-    .box-item-1 {
-        width: 87px;
-        right: 149px;
-        top: -45px
-    }
-    .box-item-2 {
-        width: 87px;
-        top: 115px;
-        left: -33px;
-    }
-    .box-item-3 {
-        width: 87px;
-        right: -36px;
-        top: 126px;
-    }
-    .box-item-4 {
-        width: 87px;
-        right: 155px;
-        bottom: -69px;
-    }
-    .box-item-5 {
-        right: 32px;
-        top: 207px;
-        line-height: 31px;
-        width: 320px;
-        position: absolute;
-    }
-    .box-item-5 p {
-        font-size: 40px;
-
-    }
-    .box-item-1 p {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .box-item-2 p {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .box-item-3 p {
-        font-size: 14px;
-        font-weight: 500;
-    }
-    .box-item-4 p {
-        font-size: 14px;
-        font-weight: 500;
-        text-align: inherit;
-    }
-    .box-item-5 span {
-        font-size: 22px;
-        font-weight: 700;
-
-        display: block;
-
-        text-align: center;
-    }
-
-    .customer-reviews-tabs-item.active:after {
-        top: 118px;
-    }
-
-    .box-item-1 i {
-        top: 33px;
-        left: -8px;
-    }
-    .box-item-2 i {
-        bottom: -17px;
-        right: 34px;
-    }
-    .box-item-4 i {
-        top: 27px;
-        left: 84px;
-    }
-    .box-item-3 i {
-        left: 30px;
-        top: -13px;
-    }
-
-
-
-
-
-
-    .construction-industry-section-info {
-        margin-bottom: 182px;
-        margin-top: 330px;
-    }
-    .construction-industry-title h2 {
-        text-align: inherit;
-    }
-
-    .construction-industry-text {
-        width: 100%;
-        text-align: initial;
-    }
-    .many-to-save-section {
-
-        background-image: none;
-    }
-    .many-to-save-body-img {
-        display: block;
-
-    }
-    .many-to-save-section {
-        background-image: url(images/header-bg-2.png);
-        background-size: 46%;
-        background-position: right 200px;
-        background-repeat: no-repeat;
-    }
-    .many-to-save-tabs {
-        border-bottom: 2px solid rgba(0, 0, 0, 0.07);
-        margin-bottom: 18px;
-
-    }
-    .many-to-save-body.active {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .many-to-save-body-info p {
-        width: 100%;
-        font-weight: 300;
-    }
-    .fs-42{
-        font-size: 18px !important;
-    }
-    .fs-23{
-        font-size: 14px !important;
-    }
-    .fs-32 {
-        font-size: 14px !important;
-    }
-    .fs-60{
-        font-size: 24px !important;
-    }
-    .learn-more p {
-        font-size: 14px;
-        color: #60D58D;
-        font-weight: 600;
-    }
-
-    .see-mobiclocks-section {
-        background-image: url(images/see_action_bg2.png);
-        background-size: 52%;
-        background-position: 48% -116px;
-        padding: 73px 0 72px;
-    }
-    .see-mobiclocks-section-info p {
-        width: 38%;
-    }
-    .see-mobiclocks-section-btn {
-        padding: 18px 0;
-    }
-    .see-mobiclocks-section-btn {
-
-        width: 223px;
-
-    }
-    .see-mobiclocks-section-info h3 {
-        text-align: center;
-        width: 179px;
-        line-height: 26px;
-        margin: 0 auto;
-        padding-top: 0px;
-        padding-bottom: 24px;
-    }
-    .start-saving-with-mobiclock-section {
-        /* display: flex; */
-        justify-content: space-between;
-        padding: 0 0 208px 0px;
-        background-image: url(images/mobile-image.png);
-        background-size: 75%;
-        background-position: left 17%;
-        background-repeat: no-repeat;
-        margin-top: 0;
-        z-index: -1111;
-    }
-    .start-saving-with-mobiclock-info p {
-        margin-top: 36px;
-        width: 252px;
-        font-size: 14px !important;
-        color: #fff;
-        font-weight: 500;
-        line-height: 19px;
-    }
-    .start-saving-with-mobiclock-info {
-        margin-bottom: 59%;
-    }
-    .learn-more{
-        display: block;
-    }
-    .our-story-img {
-
-        top: -75px;
-
-    }
-    .our-story-img img.our-img {
-        margin-left: 0px;
-        margin-top: 0;
-        width: 100%;
-    }
-    img.bg {
-        position: absolute;
-        right: -118px;
-        bottom: -144px;
-        transform: rotate(0);
-        z-index: -1;
-        width: 74%;
-    }
-    .our-story-section {
-
-        margin: 315px auto 129px;
-    }
-    .geo_fence {
-        flex: 1;
-        background-size: 47%;
-        background-image: url("images/header-bg-2.png");
-        background-position: right 64px;
-        background-repeat:  no-repeat;
-        position: relative;
-    }
-    .multiple-unique-features-body-img {
-        display: block;
-        position: relative;
-        top: 82px;
-        left: 13px;
-        width: 88%;
-    }
-    .geo-fence-description p {
-        line-height: 20px;
-        font-weight: 300;
-        margin-top: 8px;
-    }
-    .p-2{
-        display: none;
-    }
-    .practical-features-section {
-        background-position: 58% 222px, left top;
-        background-size: 63%, 78%;
-        bottom: 355px;
-    }
-    .practical-features-description p {
-        width: 384px;
-    }
-    .practical-features-btn {
-        background-color: #47B7E8;
-        display: block;
-        margin: 230px auto 30px;
-    }
-    .practical-features-btn a {
-        font-size: 16px;
-        color: #fff;
-    }
-    .practical-features-info {
-        padding: 0 0 0;
-    }
-    .practical-features-title h3 {
-
-        margin-top: 115px;
-    }
-    .why-mobiclocks-description {
-        text-align: left;
-    }
-    .why-mobiclocks-title h3 {
-        text-align: left;
-        margin-left: 5px;
-    }
-    .multiple-unique-features-tabs-item.active:after {
-        display: none;
-    }
-    .customer-reviews-section-2 {
-        padding-top: 50px;
-
-    }
-    .mobiclocks-in-action-body span {
-        display: initial;
-    }
-    .mobiclocks-in-action-body {
-        text-align: left;
-        padding: 7px 0;
-    }
-    .section-center-title {
-
-        text-align: left;
-    }
-    .forms {
-        display: initial;
-        margin-bottom: 20px;
-    }
-    .forms-box {
-        margin-bottom: 14px;
-    }
-    .forms-message-box textarea {
-        margin-top: 0;
-
-    }
-    .forms-message-btn button {
-
-        width: 223px;
-        padding: 18px 14px;
-
-    }
-    .section-left-title h3 {
-
-        margin-bottom: 0;
-    }
-
-
-    .box-1 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-        grid-row-end: 3;
-    }
-    .box-2 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 5;
-    }
-    .box-3 {
-        grid-column-start: 2;
-        grid-row-start: 3;
-        grid-row-end: 5;
-    }
-
-    .box-6 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-
-    }
-    .footer-info-text {
-        padding-bottom: 43px;
-    }
-    .footer-menu-section {
-        padding-bottom: 84px;
-        gap: 20px;
-    }
-    .box-item-text p a {
-        text-decoration: none;
-        color: white;
-        font-size: 14px;
-        line-height: 17px;
-    }
-
-    .multiple-unique-features-tabs ,
-    .customer-reviews-tabs {
-
-        border-bottom: 2px solid rgba(0, 0, 0, 0.07);
-    }
-    .faq-section-box.d-flex {
-        width: 75% !important;}
-
-
-}
-
-@media (max-width: 590px) {
-    .container {
-        width: 90%;
-
-
-    }
-
-
-    .customer-reviews-body-img {
-        width: 445px;
-    }
-    .practical-features-title h3 {
-        margin-top: 38px;
-    }
-    .practical-features-description p {
-        width: 280px;
-    }
-    .start-saving-with-mobiclock-info {
-        margin-bottom: 33%;
-    }
-    .see-mobiclocks-section {
-
-        background-size: 68%;
-        background-position: 56% -68px;
-    }
-    .tab-name .under-line .slick-arrow {
-        display: none !important;
-    }
-
-}
-
-
