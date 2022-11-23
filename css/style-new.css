@@ -79,17 +79,20 @@ li.nav-item {
 }
 .banner{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0 auto;
-    padding-left: 150px;
+    padding-left: 70px;
+    gap: 70px;
 }
 .banner-info {
     color: #fff;
-    margin-top: 170px;
+    margin-top: 160px;
+    padding-left: 41px;
+    box-sizing: border-box;
 }
 .banner-img {
-    width: 640px;
-    margin-top: 140px
+    width: 642px;
+    margin-top: 115px;
 }
 .banner-img img{
     width: 100%;
@@ -120,6 +123,6 @@ li.nav-item {
 .banner-img .play-logo {
     width: 150px;
     position: absolute;
-    bottom: 43%;
+    bottom: 48%;
     right: 39%;
 }
