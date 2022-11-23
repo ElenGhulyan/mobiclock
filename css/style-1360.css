@@ -21,6 +21,53 @@ main {top: -14px;position: relative;}
 
 
 
+
+
+
+.clock-img {
+    width: 215px;
+    height: 250px;
+    top: 186px;
+    position: absolute;
+    left: 210px;
+}
+
+.clock-img img{
+    width: 100%;
+}
+.clock-info {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+
+.clock-info p {
+    font-size: 68px;
+    width: 215px;
+    margin: 0 auto;
+    padding: 0 0px;
+    color: #04396C;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.clock-info span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #04396C;
+    padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
 .icon-cards {
     position: relative;
     width: 60vw;
@@ -696,23 +743,7 @@ footer {
     position: absolute;
 }
 
-.box-item-5 p {
-    font-size: 68px;
-    width: 215px;
-    margin: 0 auto;
-    padding: 0 0px;
-    color: #04396C;
-    text-align: center;
-    line-height: 30px;
-    font-weight: 500;
-}
 
-.box-item-5 span {
-    font-size: 42px;
-    font-weight: 700;
-    color: #04396C;
-    padding-left: 4px;
-}
 
 
 .faq-section-box.d-flex {
@@ -1409,10 +1440,7 @@ p {
     width: 570px;
 }
 
-.start-saving-with-mobiclock-btn {
-    display: flex;
-    justify-content: center;
-}
+
 
 .start-saving-with-mobiclock-btn a {
     padding: 17px;
@@ -1607,15 +1635,15 @@ p {
     top: 68px;
 }
 
-.clock-section:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    background-image: url("images/logo.png");
-    background-repeat: no-repeat;
-    background-position: center 172px;
-}
+/*.clock-section:before {*/
+/*    content: '';*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    display: inline-block;*/
+/*    background-image: url("images/logo.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center 172px;*/
+/*}*/
 
 
 
@@ -1776,6 +1804,12 @@ input[type="checkbox"]{
     .container {
         width: 1200px;
     }
+    .fs-32 {
+        font-size: 26px !important;
+    }
+    .fs-60 {
+        font-size: 54px !important;
+    }
     ::placeholder {
         color: #909ba5;
         font-size: 18px;
@@ -1824,7 +1858,7 @@ input[type="checkbox"]{
         display: inline-block;
         position: absolute;
         z-index: 99;
-        top: 76px;
+        top: 107px;
         left: 0;
         border-radius: 6px;
     }
@@ -1879,16 +1913,14 @@ input[type="checkbox"]{
         display: inline-block;
     }
     .customer-reviews-tabs-item.active:after {
-        content: "";
-        background: #47B7E8;
-        height: 8px;
-        width: 100%;
-        display: inline-block;
-        position: absolute;
-        z-index: 99;
-        top: 96px;
-        left: 0;
-        border-radius: 6px;
+
+        top: 133px;
+
+    }
+    .mobiclocks-in-action-section {
+
+        background-position: 253px 232px;
+
     }
     .footer-menu-section {
         display: flex;
@@ -1904,6 +1936,17 @@ input[type="checkbox"]{
         font-size: 20px;
         line-height: 28px;
     }
+    .geo_fence {
+        background-position: 84% 30%;
+
+    }
+    .practical-features-description {
+
+        width: 70%;
+    }
+    .copy-right .container {
+        gap: 298px;
+    }
 
 }
 
@@ -1914,16 +1957,6 @@ input[type="checkbox"]{
         width: 1333px;
     }
 
-
-    /*h2{*/
-    /*    font-size: 20px !important;*/
-    /*}*/
-    /*h3{*/
-    /*    font-size: 15px !important;*/
-    /*}*/
-    /*p{*/
-    /*    font-size: 10px !important;*/
-    /*}*/
     .banner-info h1 {
         font-size: 45px;
         width: 635px;
@@ -1996,6 +2029,9 @@ input[type="checkbox"]{
         top: 48px;
 
     }
+    .practical-features-info {
+        padding: 229px 0px 150px;
+    }
     .our-story-body-info {
         width: 565px;
     }
@@ -2020,20 +2056,15 @@ input[type="checkbox"]{
     .fs-23{
         font-size: 20px !important;
     }
-
-
     .our-story-img {
         position: relative;
         width: 54%;
         border-radius: 20px;
     }
-
     .our-story-section {
 
         margin-top: 140px;
     }
-
-
 
 
 
@@ -2070,6 +2101,12 @@ input[type="checkbox"]{
         border-radius: 12px;
         position: relative;
         right: -27px;
+    }
+    .practical-features-info {
+        padding: 160px 0px 150px;
+    }
+    .customer-reviews-tabs-item.active:after {
+        top: 123px;
     }
 
 }
@@ -2127,7 +2164,11 @@ input[type="checkbox"]{
         z-index: 99;
     }
 
-
+    .clock-info {
+        position: absolute;
+        top: 48%;
+        left: 25%;
+    }
 
 
     .menu-btn {
@@ -2308,7 +2349,9 @@ input[type="checkbox"]{
         margin: 5px auto;
         text-align: center;
     }
-
+    .mobiclocks-in-action-section {
+        background-position: 253px 211px;
+    }
     .faq-section-box.d-flex {
         width: 88%;
 
@@ -2363,6 +2406,7 @@ input[type="checkbox"]{
     .container {
         width: 720px;
     }
+
 
     .banner-play-img img {
         left: 320px;
@@ -2421,6 +2465,10 @@ input[type="checkbox"]{
         right: 109px;
         top: 263px;
 
+    }
+    .clock-img {
+        top: 170px;
+        left: 165px;
     }
 
     .many-to-save-body-info p {
@@ -2519,8 +2567,7 @@ input[type="checkbox"]{
     }
 
     .customer-reviews-tabs-item.active:after {
-        content: "";
-        top: 121px;
+        top: 132px;
     }
 
     .customer-reviews-body.active {
@@ -2604,6 +2651,10 @@ input[type="checkbox"]{
     .container {
         width: 540px;
     }
+    .start-saving-with-mobiclock-btn {
+        display: flex;
+        justify-content: center;
+    }
     header {
         background-size: 970px;
     }
@@ -2630,14 +2681,44 @@ input[type="checkbox"]{
         width: 400px;
         height: 400px;
     }
-    .clock-section:before {
-        display: inline-block;
-        background-image: url(images/logo.png);
-        background-size: 34%;
-        background-position: center center;
-    }
+    /*.clock-section:before {*/
+    /*    display: inline-block;*/
+    /*    background-image: url(images/logo.png);*/
+    /*    background-size: 34%;*/
+    /*    background-position: center center;*/
+    /*}*/
     .clock-box img {
         width: 100%;
+    }
+    .clock-img {
+        width: 140px;
+        height: 160px;
+        top: 123px;
+        position: absolute;
+        left: 129px;
+    }
+    .clock-info p {
+        font-size: 40px;
+        width: 215px;
+        margin: 0 auto;
+        padding: 0 0px;
+        color: #04396C;
+        text-align: center;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    .clock-info span {
+        font-size: 24px;
+        font-weight: 500;
+        color: #04396C;
+        padding-left: 4px;
+        display: block;
+        text-align: center;
+    }
+    .clock-info {
+        position: absolute;
+        top: 46%;
+        left: 23%;
     }
 
 
@@ -2658,8 +2739,8 @@ input[type="checkbox"]{
     }
     .box-item-4 {
         width: 87px;
-        right: 160px;
-        bottom: -85px;
+        right: 155px;
+        bottom: -69px;
     }
     .box-item-5 {
         right: 32px;
@@ -2687,6 +2768,7 @@ input[type="checkbox"]{
     .box-item-4 p {
         font-size: 14px;
         font-weight: 500;
+        text-align: inherit;
     }
     .box-item-5 span {
         font-size: 22px;
@@ -2697,7 +2779,9 @@ input[type="checkbox"]{
         text-align: center;
     }
 
-
+    .customer-reviews-tabs-item.active:after {
+        top: 118px;
+    }
 
     .box-item-1 i {
         top: 33px;
@@ -2708,8 +2792,8 @@ input[type="checkbox"]{
         right: 34px;
     }
     .box-item-4 i {
-        top: 12px;
-        left: 86px;
+        top: 27px;
+        left: 84px;
     }
     .box-item-3 i {
         left: 30px;
@@ -2748,7 +2832,7 @@ input[type="checkbox"]{
         background-repeat: no-repeat;
     }
     .many-to-save-tabs {
-
+        border-bottom: 2px solid rgba(0, 0, 0, 0.07);
         margin-bottom: 18px;
 
     }
@@ -2905,7 +2989,7 @@ input[type="checkbox"]{
         margin-left: 5px;
     }
     .multiple-unique-features-tabs-item.active:after {
-        top: 97px;
+        display: none;
     }
     .customer-reviews-section-2 {
         padding-top: 50px;
@@ -2943,15 +3027,6 @@ input[type="checkbox"]{
 
         margin-bottom: 0;
     }
-
-
-
-
-
-
-
-
-
 
 
     .box-1 {
@@ -2992,11 +3067,45 @@ input[type="checkbox"]{
         line-height: 17px;
     }
 
+    .multiple-unique-features-tabs ,
+    .customer-reviews-tabs {
+
+        border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+    }
+    .faq-section-box.d-flex {
+        width: 75% !important;}
+
+
 }
 
 @media (max-width: 590px) {
     .container {
-        width: 100% }
+        width: 90%;
+
+
+    }
+
+
+    .customer-reviews-body-img {
+        width: 445px;
+    }
+    .practical-features-title h3 {
+        margin-top: 38px;
+    }
+    .practical-features-description p {
+        width: 280px;
+    }
+    .start-saving-with-mobiclock-info {
+        margin-bottom: 33%;
+    }
+    .see-mobiclocks-section {
+
+        background-size: 68%;
+        background-position: 56% -68px;
+    }
+    .tab-name .under-line .slick-arrow {
+        display: none !important;
+    }
 
 }
 

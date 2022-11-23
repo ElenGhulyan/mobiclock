@@ -11,6 +11,7 @@ function reveal() {
         }
     }
 }
+/*
 
 let item_1 = document.getElementById('box-1');
 let item_2 = document.getElementById('box-2');
@@ -35,6 +36,17 @@ item_4.addEventListener('mouseenter', (event) => {
 })
 
 
+let timer = 0;
+clockTimer(timer);
+function clockTimer(timer){
+    setTimeout(function () {
+        console.log(6*timer)
+        //$('head').append('<style>.clock-section:before{transform: rotate('+6*timer+'deg)}</style>');
+        timer+=1;
+        clockTimer(timer);
+    }, 1000)
+}
+*/
 
 
 
@@ -46,17 +58,6 @@ $(".faq-section-box").on("click", function () {
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
 
 });
-
-
-
-/*$(".faq-body").on("click", function () {
-
-
-    $(this).hide(500).css("background" ,"#000");
-    $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
-
-});*/
-
 
 
 
@@ -98,13 +99,54 @@ $('.owl-carousel').owlCarousel({
     autoplayHoverPause:true
 });
 
-var timer = 0;
-clockTimer(timer);
-function clockTimer(timer){
+
+
+
+
+
+
+let timer = 0;
+function timeout() {
     setTimeout(function () {
-        console.log(6*timer)
-        //$('head').append('<style>.clock-section:before{transform: rotate('+6*timer+'deg)}</style>');
-        timer+=1;
-        clockTimer(timer);
-    }, 1000)
+        let rotate = 45 + timer;
+        if (rotate === 45 || rotate > 90) {
+            timer += 90;
+        } else {
+            timer += 45;
+        }
+        document.querySelector(".clock-img").style.transform = `rotate(${rotate}deg)`;
+
+        timeout();
+    }, 3000);
 }
+timeout();
+
+
+
+
+
+let myMediaQuery = window.matchMedia('(max-width: 768px)');
+
+function goSlick() {
+    if(myMediaQuery.matches) {
+
+        document.querySelectorAll('.under-line').forEach((item) => {
+            item.classList.add('js-featuredItems');
+
+        });
+
+
+        $('.js-featuredItems').not('.slick-initialized').slick({
+            slidesToShow: 2,
+            slidesToScroll: 2,
+        });
+    } else {
+        $('.js-featuredItems').slick('unslick');
+        document.querySelectorAll('.under-line').forEach((item) => {
+            item.classList.remove('js-featuredItems')
+        });
+    }
+}
+
+goSlick();
+window.addEventListener('resize', goSlick);
