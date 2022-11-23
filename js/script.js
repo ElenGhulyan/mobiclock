@@ -52,9 +52,13 @@ function clockTimer(timer){
 
 
 $(".faq-section-box").on("click", function () {
-
-    $(this).find('.faq-body').toggle(500);
+    if(!$(this).hasClass("open-faq")) {
+        $(".open-faq").find('.faq-body').slideUp(1000);
+        $(".open-faq").removeClass("open-faq");
+    }
+    $(this).find('.faq-body').slideToggle(1000);
     $(this).toggleClass("open-faq");
+
     $(this).find('.fa').toggleClass('fa-angle-down').toggleClass('fa-angle-up')
 
 });

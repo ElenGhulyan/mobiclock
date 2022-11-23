@@ -7,23 +7,27 @@ body{
     margin: 0 auto;
     font-family: "Hind Madurai";
 }
-
+.container {
+    display: block;
+    width: 1360px;
+    margin: 0 auto;
+}
 header {
     background-image: url("images/header-bg.png");
-    background-size: 1335px;
+    background-size: 67%;
     background-repeat: no-repeat;
     height: 1078px;
-    padding-top: 20px;
+    padding-top: 45px;
 }
-.header {
-    display: flex;
-    gap: 99px;
-    justify-content: center;
-    margin: 28px auto;
-    /* padding-left: 120px; */
+.navbar {
+    /* display: flex; */
+    /* gap: 99px; */
+    /* justify-content: center; */
+    /* margin: 28px auto; */
 }
 .menu {
     display: flex;
+    align-items: center;
 }
 .header-btn button {
     color: #fff;
@@ -77,25 +81,22 @@ li.nav-item {
     background-color: #eee;
     color: black;
 }
-.banner{
+.banner-box{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 70px;
     gap: 70px;
+    padding-top: 153px;
 }
 .banner-info {
     color: #fff;
-    margin-top: 160px;
-    padding-left: 41px;
     box-sizing: border-box;
+    padding-top: 45px;
 }
 .banner-img {
-    width: 642px;
-    margin-top: 115px;
+    /* width: 642px; */
+    position: relative;
 }
 .banner-img img{
-    width: 100%;
+    /* width: 100%; */
 }
 .banner-info h1 {
     font-size: 68px;
@@ -123,6 +124,168 @@ li.nav-item {
 .banner-img .play-logo {
     width: 150px;
     position: absolute;
-    bottom: 48%;
-    right: 39%;
+    top: 125px;
+    left: -75px;
+}
+.nav {
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.construction-industry {
+    margin: 0 auto;
+}
+.construction-industry-section-info h2 {
+    font-size: 68px;
+    text-align: center;
+    font-weight: 500;
+    color: #04396C;
+    margin-bottom: 4px;
+}
+.construction-industry-section-info p {
+
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    width: 900px;
+    margin: 0 auto;
+    color: #04396C;
+}
+
+.clock-section {
+    /* border: 2px dashed #04396c7a; */
+    width: 635px;
+    height: 606px;
+    margin: 80px auto;
+    position: relative;
+    background-image: url("images/clock-borders.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-item-1 {
+    position: absolute;
+    right: 254px;
+    top: -81px;
+}
+.box-item-1 p {
+    width: 175px;
+    line-height: 4px;
+}
+.box-item-1 i {
+    position: absolute;
+    transform: rotate(-97deg);
+    top: 73px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #04369c82;
+}
+.clock-box img {
+    width: 100%;
+    height: 100%;
+}
+.clock-box {
+    background-color: white;
+    font-size: 20px;
+}
+.clock-img {
+    width: 215px;
+    height: 250px;
+    top: 186px;
+    position: absolute;
+    left: 210px;
+}
+.clock-img img{
+    width: 100%;
+}
+.clock-info {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+}
+.clock-info p {
+    font-size: 68px;
+    width: 215px;
+    margin: 0 auto;
+    padding: 0 0px;
+    color: #04396C;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+.clock-info span {
+    font-size: 42px;
+    font-weight: 700;
+    color: #04396C;
+    padding-left: 4px;
+}
+.clock-box {
+    font-size: 20px;
+    width: 158px;
+    line-height: 20px;
+    background-color: #fafdff;
+}
+.box-item-2 {
+    position: absolute;
+    top: 220px;
+    background-color: #fafdff;
+    left: -63px;
+}
+.box-item-2 p {
+    text-align: center;
+}
+.box-item-2 i {
+    bottom: -12px;
+    position: absolute;
+    transform: rotate(-195deg);
+    font-size: 24px;
+    font-weight: 600;
+    color: #04396c87;
+    right: 63px;
+}
+.box-item-3 {
+    position: absolute;
+    right: -63px;
+    top: 220px;
+}
+.box-item-3 p {
+    width: 134px;
+    text-align: center;
+
+}
+.box-item-3 i {
+    position: absolute;
+    transform: rotate(-15deg);
+    font-size: 23px;
+    color: #4b68ba7a;
+    font-weight: 600;
+    left: 76px;
+    top: -7px;
+}
+.box-item-4 {
+    right: 245px;
+    position: absolute;
+    bottom: -119px;
+}
+.box-item-4 p {
+    text-align: center;
+    width: 152px;
+}
+.box-item-4 i {
+    position: absolute;
+    transform: rotate(-280deg);
+    top: 65px;
+    left: 148px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #366da9a3;
+}
+.box-item-5 {
+    right: 160px;
+    top: 263px;
+    line-height: 65px;
+    width: 320px;
+    position: absolute;
 }

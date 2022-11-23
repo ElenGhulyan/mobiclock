@@ -205,7 +205,6 @@ a {
 .start-saving-with-mobiclock-btn a:hover {
     background-color: #fff;
     color: #47b7e8;
-    box-shadow: 12px 7px 10px 2px #63acd3c7;
 }
 header {
     background-image: url("images/header-bg.png");
@@ -826,6 +825,7 @@ img.img55 {
     border-radius: 6px;
 }
 .multiple-unique-features-tabs {
+    position: relative;
     display: flex;
     gap: 53px;
     justify-content: space-between;
@@ -1179,6 +1179,8 @@ p {
     background-color: #47B7E8;
     border-radius: 10px;
     display: inline-block;
+    border: 2px solid #47B7E8;
+    transition: all 0.15s ease-in-out;
 }
 .start-saving-with-mobiclock-section {
     /* display: flex; */
@@ -1420,7 +1422,16 @@ p {
 input[type="checkbox"]{
     display: none;
 }
-
+.multiple-unique-features-tabs.under-line:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    height: 8px;
+    background: palevioletred;
+    width: 240px;
+    border-radius: 6px;
+}
 @keyframes rotate {
     0%{
         filter: hue-rotate(0deg);
