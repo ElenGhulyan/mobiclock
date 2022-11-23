@@ -1195,6 +1195,10 @@
 
 
     }
+    .banner-img img {
+        right: 7px;
+    }
+
     .customer-reviews-body-img {
         width: 445px;
     }

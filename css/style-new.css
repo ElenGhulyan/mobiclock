@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1920px;
+    margin: 0 auto;
+    font-family: "Hind Madurai";
+}
+
+header {
+    background-image: url("images/header-bg.png");
+    background-size: 1335px;
+    background-repeat: no-repeat;
+    height: 1078px;
+    padding-top: 20px;
+}
+.header {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
+    margin: 28px auto;
+    /* padding-left: 120px; */
+}
+.menu {
+    display: flex;
+}
+.header-btn button {
+    color: #fff;
+    background-color: #47b7e8;
+    border: none;
+    margin-left: 70px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 18px 14px;
+    border-radius: 7px;
+}
+.menu ul.header-menu {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    position: relative;
+}
+.nav-link {
+    font-size: 17px;
+    color: #fff;
+    line-height: 23px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+.menu li.nav-item:hover .sub-menu {
+    display: block;
+}
+li.nav-item {
+    padding-left: 20px;
+}
+.contact {
+    color: #000;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgba(236, 227, 227, 0.62);
+    width: 100%;
+    z-index: 1;
+}
+
+.sub-menu a:hover {
+    background-color: #eee;
+    color: black;
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+.banner-info {
+    color: #fff;
+    margin-top: 170px;
+}
+.banner-img {
+    width: 640px;
+    margin-top: 140px
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-info h1 {
+    font-size: 68px;
+    width: 750px;
+    line-height: 67px;
+}
+.banner-info p {
+    font-size: 32px;
+    width: 540px;
+    line-height: 35px;
+    margin-top: 18px;
+}
+.banner-info button {
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 17px 18px;
+    width: 218px;
+    margin-top: 28px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #47b7e8;
+}
+
+.banner-img .play-logo {
+    width: 150px;
+    position: absolute;
+    bottom: 43%;
+    right: 39%;
+}
