@@ -709,9 +709,7 @@ img.img55 {
 }
 .many-to-save-body.active {
     display: flex;
-
-
-}
+    }
 .many-to-save-img img {
     width: 100%;
 }
@@ -756,7 +754,7 @@ img.img55 {
     margin-bottom: 80px;
     padding-bottom: 16px;
 }
-.customer-reviews-section-2 {
+.customer-reviews-section-2, .see-mobiclocks-section {
     position: relative;
     transform: translateY(200px);
     opacity: 0;
@@ -765,6 +763,12 @@ img.img55 {
     transition: 3s all ease;
 }
 .customer-reviews-section-2.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.see-mobiclocks-section.active{
     transform: translateY(0);
     opacity: 1;
 }
@@ -941,6 +945,8 @@ img.img55 {
 .construction-industry-section-info {
     margin-bottom: 182px;
 }
+
+
 .customer-reviews-section-1-title p {
     font-size: 60px;
     color: #04396c;
