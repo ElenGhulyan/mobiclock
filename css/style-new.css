@@ -710,7 +710,7 @@ p {
 }
 .customer-reviews-item {
     border-radius: 35px;
-    padding: 35px;
+    /* padding: 35px; */
 }
 .customer-reviews-section-1-tabs {
 }
@@ -722,9 +722,9 @@ p {
     padding-left: 11px;
 }
 .customer-reviews-section-1-tabs {
-    display: flex;
-    gap: 0px;
-    justify-content: center;
+    /* display: flex; */
+    /* gap: 0px; */
+    /* justify-content: center; */
 }
 .customer-reviews-item-title-info p {
     font-size: 22px;
@@ -849,4 +849,31 @@ section.start-saving-with-mobiclock {
     background-repeat: no-repeat;
     background-position: right;
     padding: 24px 0 253px;
+}
+
+.slick-slide {
+    box-shadow: 0 0 10px 2px #000;
+    padding: 20px 15px;
+    border-radius: 16px;
+}
+
+.slick-track {
+    display: flex;
+    gap: 70px;
+    padding: 20px 0;
+}
+.slick-dots li button:before {
+    content: "" !important;
+    background: #000;
+    width: 60px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.slick-dots li {
+    width: 70px;
+}
+
+.slick-dots li button {
+    width: 60px;
 }
