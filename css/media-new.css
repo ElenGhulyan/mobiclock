@@ -1,0 +1,1853 @@
+/*@media(min-width: 1921px){
+    .content{
+        max-width: 2100px;
+        margin: 0 auto;
+
+    }
+    .container {
+        max-width: 1500px ;
+    }
+    header {
+        background-size: 1383px;
+        height: 1091px;
+    }
+    .practical-features {
+        background-size: 57%;
+    }
+
+
+}*/
+
+
+@media (max-width: 1800px) {
+    .container {
+        width: 1200px;
+    }
+    header {
+        background-size: 1220px;
+    }
+    .nav {
+        gap: 50px;
+
+    }
+    .header-btn button {
+        margin-left: 39px;
+    }
+    .menu ul.header-menu {
+        gap: 25px;
+    }
+    .banner-info h1 {
+        font-size: 55px;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        top: 107px;
+    }
+    .customer-reviews-tabs-item.active:after {
+        top: 112px;
+    }
+    .our-story {
+
+        background-size: 28%;
+        background-position: 42% 100%;
+    }
+    .copy-right .container {
+        gap: 270px;
+    }
+    section.start-saving-with-mobiclock {
+        background-size: 54%;
+    }
+    .practical-features-info {
+        padding: 150px 0 330px;
+    }
+    section.mobiclocks-in-action {
+        background-position: 59% 164px;
+    }
+    .practical-features-description {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width: 1600px) {
+    .container {
+        width: 1200px;
+    }
+    li.nav-item {
+        padding-left: 0;
+    }
+    .header-btn button {
+        font-size: 16px;
+
+    }
+    .our-story-body-info {
+        width: 80%;
+        margin-top: 19px;
+    }
+    .our-story {
+
+        background-size: 25%;
+        background-position: 44% 100%;
+    }
+    .see-mobiclocks {
+        background-size: 73%;
+        background-position: 207px -5px;
+    }
+    .start-saving-with-mobiclock {
+        background-size: 55%;
+    }
+
+    .fs-68 {
+        font-size: 60px !important;
+    }
+    .our-story {
+        gap: 45px;
+        margin-top: 130px;
+    }
+    .our-story-body-info {
+        width: 80%;
+    }
+    .banner-info {
+        width: 50%;
+    }
+    .banner-img {
+        width: 50%;
+    }
+    .soc-img {
+        width: 100%;
+    }
+    .banner-img .play-logo {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .header-btn button {
+        border: 2px solid #f5eeee96;
+
+    }
+    .banner-info h1 {
+        font-size: 50px;
+    }
+    .banner-info p {
+        font-size: 30px;
+    }
+    .our-story {
+        background-size: 33%;
+        background-position: 44% 98%;
+    }
+    .copy-right .container {
+        gap: 300px;
+    }
+    .practical-features-img img {
+        width: 100%;
+    }
+    .multiple-unique-features-body-img {
+        width: 60%;
+    }
+    .multiple-unique-features-body-info {
+
+        width: 40%;
+    }
+    .fs-42 {
+        font-size: 37px !important;
+    }
+    .fs-68 {
+        font-size: 55px !important;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        /* top: 107px; */
+    }
+    .why-mobiclocks-section {
+        margin-bottom: 115px;
+    }
+    section.mobiclocks-in-action {
+        background-position: 60% 146px;
+    }
+    section.mobiclocks-in-action {
+        padding: 187px 0 122px;
+    }
+    .multiple-unique-features-body-img img {
+        max-width: 110%;
+    }
+}
+
+@media (max-width: 1390px) {
+    .container {
+        width: 1100px;
+    }
+    header {
+        padding-top: 20px;
+    }
+
+
+    .our-story {
+        background-size: 33%;
+        background-position: 40% 57%;
+    }
+
+    .banner-box {
+        display: initial;
+    }
+
+    .banner-info {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .banner-img {
+        width: 100%;
+        text-align: center;
+    }
+    .soc-img {
+        justify-content: center;
+    }
+    .header-btn {
+        display: none;
+    }
+    .practical-features {
+        background-position: left top;
+        margin-top: -20px;
+    }
+    .practical-features-info {
+        /* padding: 133px 0 330px; */
+    }
+    .fs-23 {
+        font-size: 20px !important;
+    }
+    .customer-reviews-tabs-item.active:after {
+        top: 101px;
+    }
+    .copy-right .container {
+        gap: 250px;
+    }
+    .box-item-text ul li a {
+        font-size: 20px;
+    }
+
+    .nav {
+        display: flex;
+        gap: 110px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact {
+        color: #fff;
+    }
+    .banner-info p {
+        margin: 18px auto 0;
+    }
+    .customer-reviews-item {
+        width: 555px !important;
+        height: 480px;
+        margin-left: 23%;
+    }
+    .many-to-save-body-img {
+        right: -33px;
+    }
+    .practical-features {
+        background-size: 64%;
+    }
+    .customer-reviews-section-1-tabs {
+        width: 1000px !important;
+        margin: 0 auto;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        top: 98px;
+    }
+    .multiple-unique-features-body-img img {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+
+
+
+
+
+
+
+    #active:checked ~ .menu-btn i:before {
+        color: #47b7e8;
+    }
+    .menu-btn {
+        color: #47b7e8;
+        background: #ffffff;
+        border: 2px solid #47b7e8;
+    }
+    .banner-info p {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    .banner-info h1 {
+        font-size: 40px;
+    }
+    .soc-img a {
+        width: 25%;
+    }
+    .our-story {
+        background-size: 33%;
+        background-position: 34% 60%;
+        margin-bottom: 10px;
+        padding-bottom: 225px;
+
+    }
+
+
+    .fs-68 {
+        font-size: 50px !important;
+    }
+    .fs-32 {
+        font-size: 24px !important;
+    }
+    .practical-features-info {
+        padding: 133px 0 199px;
+    }
+    .customer-reviews-tabs {
+        gap: 25px;
+    }
+    section.mobiclocks-in-action {
+        background-size: 54%;
+        background-position: 57% 55px;
+    }
+    .copy-right .container {
+        gap: 180px;
+    }
+    .our-story {
+        margin-top: 0;
+    }
+    .multiple-unique-features-tabs-item.active:after {
+        top: 98px;
+    }
+    .construction-industry-section-info p {
+
+        width: 90%;
+
+    }
+    .why-mobiclocks-description {
+        width: 100%;
+    }
+    .many-to-save-body-img {
+        width: 100%;
+    }
+    .many-to-save-body-info {
+        width: 100%;
+    }
+    .start-saving-with-mobiclock-info p {
+        width: 480px;
+    }
+    .nav {
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .soc-img a {
+        width: 18%;
+    }
+    .see-mobiclocks {
+        background-size: 77%;
+        background-position: 141px 5px;
+        padding: 142px 0 100px;
+
+    }
+    section.start-saving-with-mobiclock {
+        background-position: right top;
+        padding: 0 0 210px;
+    }
+
+    .customer-reviews-section-1-tabs {
+        width: 800px !important;
+        margin: 0 auto;
+    }
+    .many-to-save-body-img {
+        right: 0;
+    }
+    .practical-features {
+        background-size: 68%;
+    }
+
+
+
+}
+
+@media (max-width: 1030px) {
+    .container {
+        width: 720px;
+    }
+
+    .container-pad {
+        width: 100% !important;
+    }
+
+
+    .clock-section {
+        width: 550px;
+        height: 550px;
+    }
+
+    .clock-box img {
+        width: 80%;
+    }
+
+    .box-item-1 {
+        right: 185px;
+        top: -66px;
+    }
+
+    .box-item-2 {
+        top: 207px;
+        left: -63px;
+    }
+
+    .box-item-3 {
+        right: -80px;
+        top: 206px;
+    }
+
+    .box-item-4 {
+        right: 163px;
+        position: absolute;
+        bottom: -110px;
+    }
+
+
+    .many-to-save-body.active {
+        flex-direction: column-reverse;
+    }
+
+    .many-to-save-title h3 {
+
+        margin-bottom: 30px;
+    }
+
+    .slick-track {
+
+        padding: 30px 0 0;
+        margin-bottom: 0;
+    }
+
+    section.start-saving-with-mobiclock {
+        background-image: url(images/header-2.png);
+        background-repeat: no-repeat;
+        background-position: left 85px;
+        background-size: 70%;
+        padding: 8px 0 83px;
+    }
+
+    .start-saving-with-mobiclock-section {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .start-saving-with-mobiclock-info h3 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .start-saving-with-mobiclock-info p {
+        color: #ffffff;
+        width: 50%;
+    }
+
+    .start-saving-with-mobiclock-info img {
+        display: block;
+        width: 100%;
+    }
+
+    .start-saving-with-mobiclock-info button {
+
+        margin: 0 auto;
+    }
+
+    .start-saving-with-mobiclock-info button {
+        width: 265px;
+        margin-top: 35px;
+    }
+
+    .our-story {
+        margin-top: 200px;
+        flex-direction: column-reverse;
+    }
+
+    .see-mobiclocks {
+        text-align: center;
+    }
+
+    .see-mobiclocks {
+        position: relative;
+        background-image: url(images/see_action_bg2.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 200px -30px;
+        padding: 173px 0 140px;
+    }
+
+    .see-mobiclocks p {
+        color: #04396C;
+        width: 65%;
+        margin: 10px auto;
+        padding-bottom: 25px;
+    }
+
+    .learn-more {
+        display: block;
+    }
+
+    .learn-more a {
+        font-size: 14px;
+        color: #60D58D;
+        font-weight: 600;
+    }
+
+    .see-mobiclocks {
+
+        padding: 300px 0 350px;
+
+        background-size: 720px;
+
+        background-position: center;
+
+    }
+
+    .fs-68 {
+        font-size: 40px !important;
+    }
+
+    .our-story-body {
+
+        width: 720px;
+
+        margin: 0 auto;
+
+    }
+
+    .our-story-body-info {
+        width: 100%;
+    }
+
+    .our-story-body-title {
+        line-height: 33px;
+        width: 100%;
+    }
+
+    .our-img-mobail {
+        display: block;
+        width: 100%;
+    }
+
+    .our-img {
+        display: none;
+    }
+
+    .our-story {
+        background-position: 82% 92%;
+        background-image: url(images/our-bg-2.png);
+        background-repeat: no-repeat;
+        background-size: 35%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    section.start-saving-with-mobiclock {
+
+    }
+
+    .multiple-unique-features-tabs {
+        /* border-bottom: none; */
+        gap: 20px;
+        padding: 0;
+        margin: 0 auto;
+        width: 720px;
+    }
+
+    .multiple-unique-features-tabs-item.active:after {
+        top: 40px;
+    }
+
+    .many-to-save-tabs,
+    .customer-reviews-tabs {
+        border-bottom: none;
+
+    }
+
+    .many-to-save-tabs {
+        border-bottom: none;
+        padding: 0 115px;
+    }
+
+    .customer-reviews-tabs-item.active:after {
+        top: 66px;
+        height: 5px;
+    }
+
+    .carusel-body {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .customer-reviews-section-1-tabs {
+        display: none;
+    }
+
+    .many-to-save {
+        margin-bottom: 80px;
+    }
+
+    .multiple-unique-features-body.active {
+        flex-direction: column-reverse;
+    }
+
+    .multiple-unique-features-body-img {
+        width: 100%;
+        background-image: url(images/header-bg-2.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 46%;
+    }
+
+    .multiple-unique-features-body-img img {
+        width: 720px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    .multiple-unique-features-body-info {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .p-2 {
+        display: none;
+    }
+
+    .practical-features-body {
+        display: initial;
+    }
+
+    .practical-features-info {
+        padding: 133px 0 0;
+        width: 100%;
+    }
+
+    img.practical-features-img-mobail {
+        display: block;
+        width: 75%;
+        margin-left: 100px;
+    }
+
+    .practical-features {
+
+        background-size: 74%;
+    }
+
+    .practical-features-img {
+        display: none;
+    }
+
+    .practical-features-btn {
+        background-color: #50bbe9;
+        color: #ffffff;
+        display: block;
+        margin: 10px auto 220px;
+        width: 35%;
+    }
+
+    .practical-features-info h3 {
+        width: 50%;
+    }
+
+    .practical-features-info p {
+        width: 73%;
+    }
+
+    .why-mobiclocks-description {
+
+        text-align: left;
+    }
+
+    .why-mobiclocks-title h3 {
+        text-align: left;
+    }
+
+    .customer-reviews-body.active {
+        display: initial;
+
+    }
+
+    .customer-reviews-body-info p {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .customer-reviews-body-info h3 {
+        padding-left: 0;
+    }
+
+    .customer-reviews-body-img {
+        margin-bottom: 57px;
+    }
+
+    .mobiclocks-in-action-body span {
+        display: initial;
+    }
+
+    .mobiclocks-in-action-body {
+        text-align: left;
+        padding: 10px 0;
+
+    }
+
+    .footer-menu-section {
+        display: grid;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+
+    footer {
+        background-color: #47B7E8;
+        padding-top: 120px;
+    }
+
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        grid-row-end: 3;
+    }
+
+    .box-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .box-3 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+    .box-6 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+    .copy-right .container {
+        gap: 80px;
+    }
+
+    section.customer-reviews-slider {
+        margin: 100px 0 81px;
+    }
+
+    .customer-reviews-tabs {
+        margin-bottom: 40px;
+    }
+
+    .icon-cards__content:hover {
+        animation: none;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    .many-to-save-body-img {
+        width: 100%;
+        background-image: url(images/header-bg-2.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 46%;
+    }
+
+    .many-to-save-title,
+    .multiple-unique-features-title {
+        width: 720px;
+        margin: 0 auto 45px;
+    }
+
+    .many-to-save-body-info,
+    .multiple-unique-features-body-info {
+        box-sizing: border-box;
+        max-width: 720px;
+        margin: 20px auto;
+    }
+
+    .many-to-save-tabs-item a,
+    .multiple-unique-features-tabs a,
+    .customer-reviews-tabs a {
+        font-size: 16px !important;
+    }
+
+    .many-to-save-tabs-item.active:after {
+        height: 5px;
+        top: 34px;
+    }
+
+    .multiple-unique-features-tabs-item.active:after {
+        top: 67px;
+        /* height: 5px; */
+    }
+
+    .customer-reviews-tabs {
+        gap: 13px;
+    }
+
+    section.mobiclocks-in-action {
+        background-size: 79%;
+        background-position: 80% 44px;
+    }
+
+
+    .wrapper {
+        z-index: 999999;
+    }
+
+    .wrapper {
+
+        top: 0px;
+
+        right: 50%;
+
+        display: block;
+
+        height: 100%;
+
+        width: 240px;
+
+        background: none;
+
+        clip-path: circle(25px at calc(100% - 45px) 45px);
+
+        transition: all 0.3s ease-in-out;
+
+    }
+
+
+    .menu ul.header-menu {
+        display: none;
+    }
+
+    .menu-btn {
+        z-index: 9999999;
+        right: 60px;
+        top: 20px;
+        height: 50px;
+        display: block;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 0;
+        font-size: 20px;
+        color: #47b7e8;
+    }
+
+    .our-story-img {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .many-to-save-body-img img {
+        width: 720px;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 540px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .clock-section {
+        width: 440px;
+        height: 440px;
+    }
+
+    .clock-box img {
+        width: 100%;
+    }
+
+    .clock-box {
+        width: 120px;
+    }
+
+    .box-item-3 {
+        right: -47px;
+        top: 157px;
+    }
+
+    .box-item-4 {
+        right: 163px;
+        bottom: -89px;
+    }
+
+    .box-item-2 {
+        top: 148px;
+        left: -59px;
+    }
+
+    .clock-img {
+        width: 187px;
+        height: 180px;
+    }
+
+    .clock-box p {
+        font-size: 17px;
+    }
+
+    .box-item-1 {
+        right: 146px;
+        top: -62px;
+    }
+
+    .clock-info {
+        top: 45%;
+        left: 20%;
+    }
+
+    .clock-info p {
+        font-size: 52px;
+    }
+
+    .clock-info span {
+        font-size: 25px;
+    }
+
+    .our-story-img img {
+        width: 100%;
+    }
+
+    .multiple-unique-features-tabs-item.active:after {
+        top: 57px;
+    }
+
+    .practical-features-title {
+        line-height: 40px;
+    }
+
+    .see-mobiclocks {
+        background-size: 60%;
+        background-position: 129px -16px;
+    }
+
+    .fs-68 {
+        font-size: 30px !important;
+    }
+
+    .practical-features-description {
+        line-height: 27px;
+    }
+
+    .practical-features-info {
+        padding: 90px 0 0;
+    }
+
+    .fs-32 {
+        font-size: 21px !important;
+    }
+
+    .our-story {
+        background-size: 51%;
+    }
+
+    .open-faq.faq-section-box.d-flex {
+        height: 222px;
+    }
+
+    .box-1 {
+        margin-bottom: 26px;
+    }
+
+    .practical-features-btn {
+        width: 40%;
+    }
+
+    .forms {
+        grid-template-columns: none;
+    }
+
+    .copy-right .container {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .copy-right-social {
+        order: 1;
+    }
+
+    .copy-right-year {
+        order: 3;
+    }
+
+    .copy-right-text {
+        order: 2;
+    }
+
+    .our-story-img {
+        width: 580px;
+    }
+
+    .our-story-img {
+        width: 564px;
+        margin: 0 auto;
+    }
+
+    .faq-section-box.d-flex {
+        width: 85%;
+    }
+
+    .many-to-save-tabs-item.active:after {
+        top: 66px;
+    }
+
+    .see-mobiclocks {
+        padding: 113px 0 90px;
+    }
+
+    .multiple-unique-features-title {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    /* .multiple-unique-features-tabs:before {
+         position: absolute;
+         width: 150px;
+         height: 70px;
+         left: 0px;
+         top: 11px;
+         content: '';
+         z-index: 999;
+         display: inline-block;
+         background: linear-gradient(270deg, rgba(250, 253, 255, 0) 3.06%, rgba(250, 253, 255, 0.3) 51.06%, #FAFDFF 96.43%);
+     }
+
+     .multiple-unique-features-tabs:after {
+         position: absolute;
+         width: 219px;
+         height: 70px;
+         right: 0px;
+         top: 0;
+         content: '';
+         z-index: 999;
+         display: inline-block;
+         background: linear-gradient(270deg, rgba(250, 253, 255, 0) 3.06%, rgba(250, 253, 255, 0.3) 51.06%, #FAFDFF 96.43%);
+         transform: matrix(-1, 0, 0, 1, 0, 0);
+     }
+     .customer-reviews-tabs:before {
+         position: absolute;
+         width: 150px;
+         height: 70px;
+         left: 0px;
+         top: 11px;
+         content: '';
+         z-index: 999;
+         display: inline-block;
+         background: linear-gradient(270deg, rgba(250, 253, 255, 0) 3.06%, rgba(250, 253, 255, 0.3) 51.06%, #FAFDFF 96.43%);
+     }
+
+     .customer-reviews-tabs:after {
+         position: absolute;
+         width: 219px;
+         height: 70px;
+         right: 0px;
+         top: 0;
+         content: '';
+         z-index: 999;
+         display: inline-block;
+         background: linear-gradient(270deg, rgba(250, 253, 255, 0) 3.06%, rgba(250, 253, 255, 0.3) 51.06%, #FAFDFF 96.43%);
+         transform: matrix(-1, 0, 0, 1, 0, 0);
+     }*/
+
+
+    .container {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .container-pad {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    header {
+        background-size: 645px;
+    }
+
+    .clock-box img {
+        width: 70px;
+    }
+    .banner-info {
+        padding-top: 60px;
+
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .clock-box {
+        width: 100px;
+    }
+
+    .banner-img .play-logo {
+        width: 60px;
+    }
+
+    .soc-img a img {
+        border-radius: inherit;
+    }
+
+    .box-item-1 {
+        right: 50%;
+        top: -27px;
+        margin-right: -50px;
+        background: none;
+        text-align: center;
+    }
+
+    .box-item-3 {
+        right: -18px;
+        top: 50%;
+        margin-top: -53px;
+        text-align: center;
+    }
+
+    .box-item-4 {
+        right: 50%;
+        bottom: -45px;
+        margin-right: -50px;
+        text-align: center;
+    }
+
+    .box-item-2 {
+        top: 50%;
+        margin-top: -53px;
+        left: -18px;
+        text-align: center;
+    }
+
+
+    .clock-box p {
+        font-size: 14px;
+        width: 100px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .many-to-save-tabs-item a {
+        font-size: 14px;
+    }
+
+    .many-to-save-tabs {
+        margin-bottom: 15px;
+    }
+
+    .fs-23 {
+        font-size: 14px !important;
+    }
+
+    .see-mobiclocks {
+        background-size: 74%;
+        background-position: 65px -33px;
+    }
+
+    .our-story {
+        margin-top: 83px;
+    }
+
+    .our-story-img {
+        width: 100%;
+        padding: 40px 30px 0;
+        box-sizing: border-box;
+    }
+
+
+    .banner-info {
+        margin-bottom: 240px;
+        text-align: left;
+    }
+
+    .our-story {
+        background-position: 92% 90%;
+        margin-bottom: 0px;
+    }
+
+    .practical-features {
+        background-size: 96%;
+    }
+
+    .practical-features-info h3 {
+        width: 64%;
+    }
+
+    .practical-features-info p {
+        width: 79%;
+    }
+
+    .fs-32 {
+        font-size: 15px !important;
+    }
+
+    .our-story-body-info {
+        width: 100%;
+    }
+
+    .our-story-body {
+        padding: 0 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .clock-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .practical-features-btn {
+        width: 223px;
+    }
+
+    .practical-features-btn {
+        margin: 10px auto 0;
+        font-size: 16px;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+    }
+
+    section.mobiclocks-in-action {
+        background-size: 15%;
+        background-image: url(images/see_mobiclock-bg-2.png);
+        background-position: 30px 64px;
+        padding: 121px 0 0;
+    }
+
+    .menu-btn {
+        top: 60px;
+        border-radius: 0;
+    }
+
+    .wrapper {
+
+        /* top: 75px; */
+
+        border-radius: 0;
+
+    }
+
+    .banner-info h1 {
+        font-size: 26px;
+        width: 280px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    .banner-info p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 34px 0;
+        width: 100%;
+    }
+
+    .banner-info button {
+        margin-top: 0;
+        width: 235px;
+        font-size: 16px;
+        padding: 16px 53px;
+    }
+
+    .soc-img {
+
+        padding-top: 35px;
+    }
+
+    .soc-img a {
+        width: 28%;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        background-image: url(images/header-bg.png);
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        height: auto;
+        margin-bottom: 75px;
+    }
+
+    .fs-68 {
+        font-size: 26px !important;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .construction-industry-section-info h2 {
+        text-align: left;
+        font-weight: 500;
+        line-height: 26px;
+        color: #04396C;
+        margin-bottom: 12px;
+    }
+
+    .construction-industry-section-info p {
+        width: 100%;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .construction-industry-section-info {
+        margin-bottom: 80px;
+    }
+
+    .many-to-save {
+        margin-top: 144px;
+    }
+
+    .many-to-save-title h3 {
+        margin-bottom: 23px;
+        line-height: 26px;
+        font-size: 24px !important;
+    }
+
+    .fs-42 {
+        font-size: 18px !important;
+    }
+
+    .many-to-save-body-info h3 {
+        margin-bottom: 10px;
+    }
+
+    .many-to-save-body-info p {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .many-to-save {
+        margin-bottom: 90px;
+    }
+
+    .see-mobiclocks {
+        padding: 80px 0 110px;
+    }
+
+    .see-mobiclocks h3 {
+        line-height: 26px;
+        text-align: center;
+        margin: 19px auto;
+        width: 200px;
+    }
+
+    .see-mobiclocks p {
+        color: #04396C;
+        line-height: 19px;
+        margin: 10px auto;
+        padding-bottom: 25px;
+        width: 200px;
+    }
+
+    .see-mobiclocks button {
+        font-size: 16px;
+        width: 223px;
+    }
+
+    .start-saving-with-mobiclock-info p {
+        width: 250px;
+        line-height: 19px;
+        margin-bottom: 0;
+    }
+
+    .start-saving-with-mobiclock-info h3 {
+        width: 100%;
+        margin-bottom: 32px;
+        line-height: unset;
+    }
+
+    section.start-saving-with-mobiclock {
+        background-size: 80%;
+        padding: 17px 0 0;
+        background-position: left 71px;
+    }
+
+    .start-saving-with-mobiclock-info img {
+        margin-bottom: 30px;
+    }
+
+    .start-saving-with-mobiclock-info button {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .start-saving-with-mobiclock-section {
+        padding-bottom: 0;
+    }
+
+    .our-story-body-info p {
+        margin: 23px 0 0;
+        line-height: 20px;
+    }
+
+    .our-story {
+        gap: unset;
+    }
+
+    .multiple-unique-features-title {
+
+        margin-bottom: 0;
+    }
+
+    .slick-track {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .multiple-unique-features-tabs {
+        padding: 0;
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .slick-track {
+        display: flex;
+        gap: 25px;
+        padding: 15px 0 0;
+        margin-bottom: 0px;
+    }
+
+    .slick-slide {
+        padding: 5px 15px;
+        border-radius: 16px;
+    }
+
+    .multiple-unique-features-tabs-item.active:after {
+        top: 45px;
+        height: 4px;
+    }
+
+    .multiple-unique-features-body-info h3 {
+        line-height: 25px;
+        margin-top: 19px;
+        width: 100%;
+    }
+
+    .geo-fence-description p {
+        padding: 0;
+        line-height: 20px;
+    }
+
+    .practical-features-info {
+        padding: 80px 0 0;
+    }
+
+    section.multiple-unique-features {
+        margin-bottom: 70px;
+        margin-top: 80px;
+    }
+
+    .practical-features-description {
+        line-height: 20px;
+    }
+
+    .practical-features-description {
+        margin-bottom: 5px;
+    }
+
+    img.practical-features-img-mobail {
+        margin-bottom: 40px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .why-mobiclocks-description {
+        line-height: 20px;
+    }
+
+    .customer-reviews-box {
+        width: 254px;
+    }
+
+    .customer-reviews-section-1-title {
+        margin-bottom: 11px;
+        top: 0;
+    }
+
+    .icon-cards__item {
+        height: 270px;
+    }
+
+    .customer-reviews-box .box-desc {
+
+        margin-top: 8px;
+    }
+
+    .customer-reviews-tabs {
+        padding-bottom: unset;
+        margin-bottom: 25px;
+    }
+
+    .customer-reviews-tabs-item.active:after {
+        top: 43px;
+        height: 4px;
+    }
+
+    .customer-reviews-body-info h3 {
+        width: 100%;
+        line-height: 25px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .customer-reviews-body-info p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .customer-reviews-body-img {
+        border: 3px solid #47B7EB;
+        box-shadow: 5px 9px 28px 0px #6f6f6f4d;
+        margin-bottom: 45px;
+    }
+
+    .mobiclocks-in-action-body {
+        line-height: 20px;
+
+    }
+
+    .faq {
+        margin-top: 50px;
+    }
+
+    .open-faq.faq-section-box.d-flex {
+        height: 170px;
+    }
+
+
+    .faq-title.section-left-title {
+        margin-bottom: 20px;
+    }
+
+    .faq-section-box.d-flex {
+        margin-bottom: 10px;
+        height: 80px;
+        width: 100%;
+    }
+
+    .contact-us {
+        margin-top: 100px;
+    }
+
+    .contact-us-title.section-left-title {
+
+        margin-bottom: 15px;
+    }
+
+    .forms-box input {
+        height: 50px;
+        border-radius: 10px;
+        font-size: 14px;
+
+    }
+
+    .forms-message-box textarea {
+        height: 80px;
+        border-radius: 10px;
+        font-size: 14px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .forms-message-btn button {
+        width: 223px;
+        font-size: 16px;
+        padding: 16px 14px;
+        font-weight: 700;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+
+    .footer-menu-logo {
+        margin-bottom: 15px;
+    }
+
+    .box-1 {
+
+        padding-bottom: 60px;
+    }
+
+    .box-item-text ul li a {
+        font-size: 14px;
+    }
+
+    .box-item-title {
+        margin: 20px 0 10px;
+    }
+
+    .copy-right-social {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .copy-right-text {
+        font-weight: 700;
+        color: #c8e9f8;
+        font-size: 12px;
+    }
+
+    .copy-right-year {
+        font-size: 12px;
+        color: #c8e9f8;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    .copy-right-social a {
+        padding-left: 20px;
+    }
+
+    .clock-section {
+        background-image: url(images/clock-borders-mobail.png);
+        background-size: 85%;
+        background-position: center;
+    }
+
+    .clock-info p {
+        font-size: 34px;
+    }
+
+    .clock-info span {
+        font-size: 18px;
+    }
+
+    .clock-info {
+        top: 48%;
+        left: 50%;
+        line-height: 7px;
+        text-align: center;
+        margin-left: -107px;
+    }
+
+    .clock-img {
+    }
+
+    .many-to-save-body-img {
+        width: 100%;
+        background-image: url("images/header-bg-2.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 55%;
+    }
+
+    .many-to-save-tabs-item.active:after {
+        background: #0d99ff8c;
+        height: 3px;
+        top: 27px;
+        transition: height 2s;
+
+    }
+
+    .slick-track {
+        padding-bottom: 4px;
+    }
+
+    .many-to-save-title,
+    .multiple-unique-features-title {
+        padding: 0 30px;
+        width: 100%;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .many-to-save-tabs {
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    .many-to-save-body-info,
+    .multiple-unique-features-body-info {
+        padding: 0 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .many-to-save-body-img img {
+        width: 75%;
+        padding-top: 20px;
+    }
+    .why-mobiclocks-section {
+        margin-bottom: 0;
+    }
+
+    section.why-mobiclocks {
+        margin-bottom: 75px;
+        margin-top: 96px;
+    }
+    section.customer-reviews-slider {
+        margin: 118px 0 0;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+    .menu-btn {
+        right: 15px;
+    }
+    .clock-section {
+
+        display: none;
+
+    }
+    .many-to-save {
+        margin-top: 70px;
+    }
+    .construction-industry-section-info {
+        margin-bottom: 0;
+    }
+    .many-to-save-tabs-item.active:after{
+        display: none;
+    }
+    .many-to-save-body-img{
+        background: none;
+    }
+    .see-mobiclocks {
+        background: none;
+    }
+    .icon-cards__item {
+
+        width: 177px;
+    }
+    .see-mobiclocks {
+        padding: 0 0 65px;
+    }
+    section.start-saving-with-mobiclock {
+        background: none;
+        padding: 17px 0 0;
+        background-position: left 71px;
+    }
+    .start-saving-with-mobiclock-info h3 {
+        margin-bottom: 0;
+    }
+    .our-story {
+        gap: unset;
+        background: none;
+    }
+    .our-story {
+        padding-bottom: 0;
+    }
+    .multiple-unique-features-body-img {
+        background: none;
+    }
+    .practical-features {
+        background-color: #47b7e8;
+        background-image: none;
+    }
+    .practical-features-info {
+        padding: 10px 0;
+    }
+    .practical-features-info h3 {
+        width: 100%;
+    }
+    .customer-reviews-box {
+        padding: 19px 15px 0;
+    }
+    .customer-reviews-box .person .name {
+        font-size: 14px;
+    }
+    .customer-reviews-box .person {
+        gap: 20px;
+    }
+    .customer-reviews-box .box-desc {
+        font-size: 11px;
+    }
+    section.customer-reviews-slider {
+        margin: 170px 0 0;
+    }
+    .slick-track {
+        gap: 0px;
+    }
+    section.mobiclocks-in-action {
+        background: none;
+        padding: 80px 0 0;
+
+    }
+    .faq-section-box.d-flex {
+        gap: 8px;
+    }
+    .open-faq.faq-section-box.d-flex {
+        height: 250px;
+    }
+    .faq-section-box-arrow i {
+        font-size: 34px;
+    }
+    .practical-features-btn {
+        background-color: #fffffffa;
+        color: #47b7e8;
+    }
+    .copy-right-social a {
+        padding-left: 15px;
+    }
+    .question-img a img {
+        width: 85px;
+    }
+    .soc-img a {
+        width: 33%;
+    }
+
+
+
+}
+
+/*
+@media (max-width: 480px) {
+    .clock-section {
+        width: 100%;
+        height: 330px;
+    }
+    .box-item-2 {
+        top: 50%;
+        margin-top: -53px;
+        left: 0;
+        text-align: center;
+    }
+    .box-item-3 {
+        right: 0;
+        top: 50%;
+        margin-top: -53px;
+        text-align: center;
+    }
+    .clock-section {
+        background-image: url(images/clock-borders-mobail.png);
+        background-size: 73%;
+        background-position: center;
+    }
+}
+*/

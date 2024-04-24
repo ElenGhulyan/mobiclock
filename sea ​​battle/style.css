@@ -1,0 +1,135 @@
+
+body{
+    background-image: url("images/111.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+
+td, th {
+    border: 2px solid #000;
+    width: 50px;
+    box-sizing: border-box;
+    height: 50px;
+    text-align: center;
+}
+td{
+    font-weight: bold;
+}
+
+/*
+tr:nth-child(even) {
+    background-color: #dddddd;
+}*/
+.bater-shipe{
+    margin: 140px auto;
+    width: 1300px;
+    border: 1px solid #000;
+    box-shadow: 4px 11px 32px 0px #000;
+    padding: 78px;
+    background-color: #f3f2f294;
+}
+
+.table-section{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+.ships{
+    /* padding: 20px; */
+}
+
+img.initships {
+    width: 100%;
+}
+
+div#ship1 {
+    width: 50px;
+    margin-left: 13px;
+}
+
+div#ship2 {
+    width: 100px;
+}
+
+div#ship3 {
+    width: 150px;
+}
+
+div#ship4 {
+    width: 210px;
+}
+
+.disabled {
+    pointer-events: none;
+    background: #dedede !important;
+}
+
+table.concurrent-desk .c-td {
+    background: #ccc;
+    position: relative;
+}
+
+table.concurrent-desk .c-td:after {
+    content: '';
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: #c0b0c1;
+    display: inline-block;
+}
+
+.kk{
+    background-color: rgb(208 163 180);
+    z-index: 999;
+    position: absolute;
+}
+
+.shoot-empty {
+    background: #8b8b8b !important;
+}
+.shoot {
+    background: rgb(208 163 180) !important;
+}
+
+.play {
+    border: 1px solid #f1f1f1;
+    box-shadow: 7px 5px 13px 0px #f1d6d9;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    padding: 0 20px;
+    pointer-events: none;
+
+    font-weight: initial;
+    align-items: center;
+}
+
+.play h2 a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+.disablid_play_button{
+    pointer-events: unset;
+    cursor: pointer;
+    background-color: #ab98ad;
+
+}
+
+.th{
+    background-color: #66339900 !important;
+}
