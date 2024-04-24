@@ -17,3 +17,13 @@ $(".multiple-unique-features-tabs-item").on("click", function (){
     let data_id = $(this).data('id');
     $('#' +  data_id).addClass('active');
 });
+
+$(document).ready(function(){
+    $('.customer-reviews-section-1-tabs').slick({
+        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 50000,
+    });
+});
